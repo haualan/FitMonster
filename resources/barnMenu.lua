@@ -116,7 +116,7 @@ function evolve(event)
       -- set new stats
       monsterState.currentlvl = monsterState.currentlvl + 1
       monsterState.nextlvl = math.floor(monsterState.nextlvl * 1.5)
-      monsterState.imgSrc = "lvl1.png"
+      monsterState.imgSrc = "lvl" .. math.random(0,4) ..".png"
 
       -- Update UI sprites
       -- do 

@@ -5,8 +5,7 @@ local dw = director.displayWidth
 local dh = director.displayHeight
 local myLon = 100
 local myLat = 100
-local http = require("socket.http")
-local ltn12 = require("ltn12")
+
 
 -- local neighbors
 
@@ -121,23 +120,33 @@ system:addEventListener("location", getLocationFunction)
 
 -- 0. post my location (lon ,lat) and monsterState to the server and the server will return the 10 closest users & their monsterstate object by distance
 function getNeighbors(iLon, iLat)
+  -- print(math.random(1000000))
   print('lon:'..iLon .. 'lat:'..iLat)
-  local myPayload = {'myUID',
-      {
+  local myPayload = {
+      -- use settings ID as a unique ID
+      UID = fitbitUID, 
       lon = iLon,
       lat = iLat,
       monster = monsterState
     }
-  }
+  
 
   dbg.printTable(myPayload)
+
+  myPayload = json.encode(myPayload)
+  print(myPayload)
 
 
 
   local recTable ={}
    local a,b,c,d = http.request( {
     url = SERVER .. '/getNeighbors?lon='.. iLon ..'&lat=' .. iLat,
-    method = 'GET',
+    source = ltn12.source.string(myPayload),
+    headers = {
+            ["content-type"] = "text/plain",
+            ["content-length"] = tostring(#myPayload)
+        },
+    method = 'POST',
     sink = ltn12.sink.table(recTable)
     } )
 

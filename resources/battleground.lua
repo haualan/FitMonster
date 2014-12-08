@@ -5,7 +5,6 @@ local dh = director.displayHeight
 local myLon = 100
 local myLat = 100
 
-
 physics:setGravity(0, 0)
  
 -- Touch listener to drag monster
@@ -29,7 +28,14 @@ end
 -- Collision listener
 function hit(event)
     if event.phase == "began" then
-      print("battle sprite collision...")
+      print("battle sprite collision...determine outcome")
+          -- Outcome = 0
+        local Outcome = battleOutcome(neighbors[chosenMonsterIndex].monster.currentlvl)
+          -- local Outcome = battleOutcome(event.target.monster.currentlvl)
+
+
+
+
         local bat, ball
         if event.nodeA.radius then
             bat = event.nodeB
@@ -38,18 +44,28 @@ function hit(event)
             ball = event.nodeB
             bat = event.nodeA
         end
-        if ball.vx < 0 then
-            ball.x = bat.x + (bat.w + ball.w)/2
-        else
-            ball.x = bat.x - (bat.w + ball.w)/2
-        end
-            ball.vx = -ball.vx
-            ball.vy = bat.yVel or 0
+        -- if ball.vx < 0 then
+        --     ball.x = bat.x + (bat.w + ball.w)/2
+        -- else
+        --     ball.x = bat.x - (bat.w + ball.w)/2
+        -- end
+
+            -- ball.vx = -ball.vx
+            -- ball.vy = -ball.vy
+
+            bat.x = bat.x + ball.xVel
+            bat.xVel = math.random(10)
+
+            bat.y = bat.y + ball.yVel
+            bat.yVel = math.random(10)
+
+            -- ball.x = bat.x + bat.xVel
+            -- ball.y = bat.y + bat.yVel
         return true
     end
 end
 
-function updateBall(event)
+function updateBattleSprite(event)
     -- Are we simply waiting for the ball to appear again?
     -- if ball.inTimer > 0 then
     --     ball.inTimer = ball.inTimer - system.deltaTime
@@ -83,6 +99,12 @@ function updateBall(event)
     -- end
 
     -- when battle begins, enemy should be chasing your monster
+    -- print("battleupdate")
+
+    opponentSprite.inTimer = 2
+    opponentSprite.vx = math.random(10)
+    opponentSprite.vy = math.random(10)
+
 end
 
 
@@ -156,18 +178,51 @@ function battleOutcome(enemyLevel)
     result = 0
   end
 
+
+  print("Outcome: "..result)
+
+
+  if result == 1 then
+    -- you've won
+    Outcomelabel = director:createLabel(dw/2, dh/2, "You have won!")
+    opponentSprite.isVisible = false
+  else
+    Outcomelabel = director:createLabel(dw/2, dh/2, "You have lost!")
+    myMonsterSprite.isVisible = false
+  end
+  Outcomelabel.xAnchor = 0.5
+  Outcomelabel.yAnchor = 0.5
+
+  local myPayload = {
+  UID = fitbitUID,
+  score = result
+}
+  myPayload = json.encode(myPayload)
+  -- send result to the server league table
+  local a,b,c,d = http.request( {
+  url = SERVER .. '/postOutcome',
+  source = ltn12.source.string(myPayload),
+  headers = {
+          ["content-type"] = "text/plain",
+          ["content-length"] = tostring(#myPayload)
+      },
+  method = 'POST'
+  } )
+
+  
+
   return result
 end
 
-function goToBattle(event)
+function Attack(event)
       if event.phase == 'began' then
 
 
           -- draw sprite for user's monster and make it draggable
-            local myMonsterSprite = director:createSprite(director.displayCenterX, dh * 0.75 , "asset/".. monsterState.imgSrc)
+            local myMonsterSprite = director:createSprite(director.displayCenterX, dh * 0.25 , "asset/".. monsterState.imgSrc)
             myMonsterSprite.xAnchor = 0.5
             myMonsterSprite.yAnchor = 0.5
-            tween:to(opponentSprite, {
+            tween:to(myMonsterSprite, {
             xScale=2,
             yScale=1.1,
             time=1,
@@ -177,30 +232,16 @@ function goToBattle(event)
             myMonsterSprite:addEventListener("touch", dragBat)
             myMonsterSprite:addEventListener("collision", hit)
 
-          --Enemy starts chasing our monster
-            system:addEventListener("update", opponentSprite)
+          -- Enemy starts chasing my monster
+            system:addEventListener("update", updateBattleSprite)
 
 
-
-
-
-
-          -- Outcome = 0
-          local Outcome = battleOutcome(neighbors[chosenMonsterIndex].monster.currentlvl)
-          -- local Outcome = battleOutcome(event.target.monster.currentlvl)
-          print("Outcome: "..Outcome)
 
           -- BattleButton.isVisible = false
           BattleButton:removeFromParent()
 
-          if Outcome == 1 then
-            -- you've won
-            Outcomelabel = director:createLabel(director.displayCenterX, director.displayCenterY, "You have won!")
-          else
-            Outcomelabel = director:createLabel(director.displayCenterX, director.displayCenterY, "You have lost!")
-          end
-          Outcomelabel.xAnchor = 0.5
-          Outcomelabel.yAnchor = 0.5
+
+
       end
       
 
@@ -213,7 +254,7 @@ function scene:enterPostTransition(event)
   dbg.print("chosen monster: " .. chosenMonsterIndex .. json.encode(neighbors[chosenMonsterIndex]))
   -- neighbors[chosenMonsterIndex]
 
-  local opponentSprite = director:createSprite(director.displayCenterX, dh * 0.75 , "asset/".. neighbors[chosenMonsterIndex].monster.imgSrc)
+  opponentSprite = director:createSprite(director.displayCenterX, dh * 0.75 , "asset/".. neighbors[chosenMonsterIndex].monster.imgSrc)
   opponentSprite.xAnchor = 0.5
   opponentSprite.yAnchor = 0.5
   tween:to(opponentSprite, {
@@ -224,7 +265,7 @@ function scene:enterPostTransition(event)
   } )
   physics:addNode(opponentSprite, {isSensor=true})
 
-  opponentSprite:addEventListener("touch", dragBat)
+  -- opponentSprite:addEventListener("touch", dragBat)
   opponentSprite:addEventListener("collision", hit)
 
   monsterStateLabel = director:createLabel(0, director.displayCenterY - 100, 
@@ -248,7 +289,7 @@ function scene:enterPostTransition(event)
   BattleButton.yAnchor = 0.5
   BattleButton.xScale = 0.5
   BattleButton.yScale = 0.5
-  BattleButton:addEventListener("touch", goToBattle)
+  BattleButton:addEventListener("touch", Attack)
   -- Create button text
   local BattleButtonText = director:createLabel( {
     x = 0, y = 0, 

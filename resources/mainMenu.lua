@@ -22,12 +22,12 @@ function goToSettings(event)
   switchToScene("settings")
 end
 
-function goToAbout(event)
-  switchToScene("about")
+function goToLeaderboard(event)
+  switchToScene("leaderboard")
 end
 
 -- Create menu background
-local background = director:createSprite(director.displayCenterX, director.displayCenterY, "asset/menu_bkg.jpg")
+local background = director:createSprite(director.displayCenterX, director.displayCenterY, "asset/bkg.jpg")
 background.xAnchor = 0.5
 background.yAnchor = 0.5
 -- Fit background to screen size
@@ -81,13 +81,13 @@ aboutButton.xAnchor = 0.5
 aboutButton.yAnchor = 0.5
 aboutButton.xScale = 0.5
 aboutButton.yScale = 0.5
-aboutButton:addEventListener("touch", goToAbout)
+aboutButton:addEventListener("touch", goToLeaderboard)
 -- Create Continue Game button text
 local aboutText = director:createLabel( {
   x = 0, y = 0, 
   w = atlas_w, h = atlas_h, 
   hAlignment="centre", vAlignment="middle", 
   textXScale = 2, textYScale = 2, 
-  text="About"
+  text="Leaderboard"
 })
 aboutButton:addChild(aboutText)
