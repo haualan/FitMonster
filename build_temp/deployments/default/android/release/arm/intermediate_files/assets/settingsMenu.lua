@@ -35,7 +35,7 @@ function loadFitBitInput()
         fitbitUID = file:read()
     else 
     -- you are a new player with no data, initialize new monster and save it
-        fitbitUID = "00000"
+        fitbitUID = math.random(1000000)
         saveFitBitInput()
     end
 

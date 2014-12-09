@@ -12,186 +12,186 @@ System Info:
  Unique ID    : SIMULATOR_ID
  Device Name  : 
  Memory       : 1048576KiB
-08/12/14 03:45:26.673: [0xfa0] DEVICE: Initialising SURFACE
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: video driver: Quartz
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: hw_available: 0
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: wm_available: 1
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: bpp         : 32
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: blit_hw     : 0
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: video_mem   : 0
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: current_w   : 1440
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: current_h   : 900
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: ConfigureSDLVideo_real 0x0 fullscreen 0
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: requesting window: 800x600
-08/12/14 03:45:26.673: [0xa0c5d1d4] SURFACE: SDL_HWSURFACE  : 0
-08/12/14 03:45:26.674: [0xa0c5d1d4] SURFACE: SDL_ANYFORMAT  : 1
-08/12/14 03:45:26.674: [0xa0c5d1d4] SURFACE: SDL_HWACCEL    : 0
-08/12/14 03:45:26.674: [0xa0c5d1d4] SURFACE: SDL_ASYNCBLIT  : 0
-08/12/14 03:45:26.674: [0xa0c5d1d4] SURFACE: SDL_DOUBLEBUF  : 0
-08/12/14 03:45:26.674: [0xa0c5d1d4] SURFACE: SDL_FULLSCREEN : 0
-08/12/14 03:45:26.674: [0xa0c5d1d4] SURFACE: SDL_RESIZABLE  : 1
-08/12/14 03:45:26.674: [0xa0c5d1d4] SURFACE: SDL_OPENGL     : 0
-08/12/14 03:45:26.674: [0xa0c5d1d4] SURFACE: calling SetVideoMode: 800x600 16 0x10000010
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: mallocd surface: 0x05b4e000 800x600 pitch=3200
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: format = XBGR888 ptr = 0x05b4e000, owned = 1, size = 1920000
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: direct copyup: 0 must_lock: 1
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: native: 800x600 (ptr: 0x05979000 pitch: 3200 bpp: 32)
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: bytes per pixel: 4 colorkey: 0 alpha: 255
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: RGBA shift:     8    16    24     0
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: RGBA loss :     0     0     0     8
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: RGBA mask : 0xff00 0xff0000 0xff000000   0x0
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: SDL_HWSURFACE  : 0
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: SDL_ANYFORMAT  : 0
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: SDL_HWACCEL    : 0
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: SDL_ASYNCBLIT  : 1
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: SDL_DOUBLEBUF  : 0
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: SDL_FULLSCREEN : 0
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: SDL_RESIZABLE  : 1
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: SDL_OPENGL     : 0
-08/12/14 03:45:26.722: [0xa0c5d1d4] SURFACE: got dimensions from SDL_GetVideoSurface: 800 600
-08/12/14 03:45:26.722: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-08/12/14 03:45:26.722: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB565 native=XBGR888)
-08/12/14 03:45:26.722: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:3200 (800x600 p:1600) o:0
-08/12/14 03:45:26.722: [0xfa0] DEVICE: Initialising EXT
-08/12/14 03:45:26.722: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
-08/12/14 03:45:26.722: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
-08/12/14 03:45:26.722: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
-08/12/14 03:45:26.722: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
-08/12/14 03:45:26.722: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
-08/12/14 03:45:26.722: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
-08/12/14 03:45:26.722: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
-08/12/14 03:45:26.722: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: Location [0x7604d91e]
-08/12/14 03:45:26.723: [0xfa0] EXT: registering extension: OSXDataDirChange [0x48ecb37e]
-08/12/14 03:45:26.723: [0xfa0] DEVICE: Initialising CONFIG
-08/12/14 03:45:26.723: [0xfa0] DEVICE: Initialising TIMER
-08/12/14 03:45:26.723: [0xfa0] DEVICE: Initialising COMPRESSION
-08/12/14 03:45:26.723: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
-08/12/14 03:45:26.723: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
-08/12/14 03:45:26.723: [0xfa0] EXT: initializing extension: s3eWindow
-08/12/14 03:45:26.723: [0xfa0] EXT: initializing extension: s3eWindow 0x00038ad0
-08/12/14 03:45:26.723: [0xfa0] DEVICE: SetupPaths: NULL
-08/12/14 03:45:26.723: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via" ]
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  via=/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
-08/12/14 03:45:26.723: [0xfa0] LOADER: parsing via file: /Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
-08/12/14 03:45:26.723: [0xfa0] FILE: open: /Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via 0X9 0X0
-08/12/14 03:45:26.723: [0xfa0] FILE: s3eFileOpen('/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via', 'r') succeeded, id=1378440 p=0x00150888
-08/12/14 03:45:26.723: [0xfa0] LOADER: reading 1817 bytes from via files
-08/12/14 03:45:26.723: [0xfa0] FILE: s3eFileClose h=0x00150888
-08/12/14 03:45:26.723: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via"  --dll="/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86"
+09/12/14 18:09:53.066: [0xfa0] DEVICE: Initialising SURFACE
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: video driver: Quartz
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: hw_available: 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: wm_available: 1
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: bpp         : 32
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: blit_hw     : 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: video_mem   : 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: current_w   : 1440
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: current_h   : 900
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: ConfigureSDLVideo_real 0x0 fullscreen 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: requesting window: 800x600
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: SDL_HWSURFACE  : 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: SDL_ANYFORMAT  : 1
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: SDL_HWACCEL    : 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: SDL_ASYNCBLIT  : 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: SDL_DOUBLEBUF  : 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: SDL_FULLSCREEN : 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: SDL_RESIZABLE  : 1
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: SDL_OPENGL     : 0
+09/12/14 18:09:53.066: [0xa0c5d1d4] SURFACE: calling SetVideoMode: 800x600 16 0x10000010
+09/12/14 18:09:53.100: [0xa0c5d1d4] SURFACE: mallocd surface: 0x05bb5000 800x600 pitch=3200
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: format = XBGR888 ptr = 0x05bb5000, owned = 1, size = 1920000
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: direct copyup: 0 must_lock: 1
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: native: 800x600 (ptr: 0x059e0000 pitch: 3200 bpp: 32)
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: bytes per pixel: 4 colorkey: 0 alpha: 255
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: RGBA shift:     8    16    24     0
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: RGBA loss :     0     0     0     8
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: RGBA mask : 0xff00 0xff0000 0xff000000   0x0
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: SDL_HWSURFACE  : 0
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: SDL_ANYFORMAT  : 0
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: SDL_HWACCEL    : 0
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: SDL_ASYNCBLIT  : 1
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: SDL_DOUBLEBUF  : 0
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: SDL_FULLSCREEN : 0
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: SDL_RESIZABLE  : 1
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: SDL_OPENGL     : 0
+09/12/14 18:09:53.101: [0xa0c5d1d4] SURFACE: got dimensions from SDL_GetVideoSurface: 800 600
+09/12/14 18:09:53.101: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+09/12/14 18:09:53.101: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB565 native=XBGR888)
+09/12/14 18:09:53.101: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:3200 (800x600 p:1600) o:0
+09/12/14 18:09:53.101: [0xfa0] DEVICE: Initialising EXT
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+09/12/14 18:09:53.101: [0xfa0] EXT: registering extension: OSXDataDirChange [0x48ecb37e]
+09/12/14 18:09:53.101: [0xfa0] DEVICE: Initialising CONFIG
+09/12/14 18:09:53.101: [0xfa0] DEVICE: Initialising TIMER
+09/12/14 18:09:53.101: [0xfa0] DEVICE: Initialising COMPRESSION
+09/12/14 18:09:53.101: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+09/12/14 18:09:53.101: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+09/12/14 18:09:53.101: [0xfa0] EXT: initializing extension: s3eWindow
+09/12/14 18:09:53.101: [0xfa0] EXT: initializing extension: s3eWindow 0x0009fad0
+09/12/14 18:09:53.101: [0xfa0] DEVICE: SetupPaths: NULL
+09/12/14 18:09:53.101: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via" ]
+09/12/14 18:09:53.101: [0xfa0] LOADER: setting [commandline]  via=/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
+09/12/14 18:09:53.101: [0xfa0] LOADER: parsing via file: /Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
+09/12/14 18:09:53.102: [0xfa0] FILE: open: /Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via 0X9 0X0
+09/12/14 18:09:53.102: [0xfa0] FILE: s3eFileOpen('/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via', 'r') succeeded, id=1800328 p=0x001b7888
+09/12/14 18:09:53.102: [0xfa0] LOADER: reading 1817 bytes from via files
+09/12/14 18:09:53.102: [0xfa0] FILE: s3eFileClose h=0x001b7888
+09/12/14 18:09:53.102: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via"  --dll="/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86"
 --data="/Users/ahau/Docume
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  via=/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  dll=/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  data=/Users/ahau/Documents/marmaladetest/FitMonster/resources
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  app-icf1=/Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  app-icf2=/Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  osx-ext-dll1=/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView.dylib
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  osx-ext-dll2=/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry.dylib
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  config-txt1=/Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt
-08/12/14 03:45:26.723: [0xfa0] LOADER: setting [commandline]  config-txt2=/Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt3=/Applications/Marmalade.app/Contents/quick/docs/app.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt4=/Applications/Marmalade.app/Contents/quick/docs/billing.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt5=/Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt6=/Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt7=/Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt8=/Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt9=/Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt10=/Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt11=/Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt12=/Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt13=/Applications/Marmalade.app/Contents/quick/docs/quick.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt14=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  config-txt15=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
-08/12/14 03:45:26.724: [0xfa0] LOADER: setting [commandline]  s3e-dir=/Applications/Marmalade.app/Contents/s3e
-08/12/14 03:45:26.724: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-08/12/14 03:45:26.724: [0xfa0] FILE: fs[00]: system[rom://] '/Users/ahau/Documents/marmaladetest/FitMonster/resources'
-08/12/14 03:45:26.724: [0xfa0] FILE: fs[03]: system[raw://] ''
-08/12/14 03:45:26.724: [0xfa0] FILE: listed 2 active filesystems
-08/12/14 03:45:26.724: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-08/12/14 03:45:26.724: [0xfa0] FILE: fs[00]: system[rom://] '/Users/ahau/Documents/marmaladetest/FitMonster/resources'
-08/12/14 03:45:26.724: [0xfa0] FILE: fs[01]: system[ram://] '/Users/ahau/Documents/marmaladetest/FitMonster/resources-ram'
-08/12/14 03:45:26.724: [0xfa0] FILE: fs[03]: system[raw://] ''
-08/12/14 03:45:26.724: [0xfa0] FILE: listed 3 active filesystems
-08/12/14 03:45:26.725: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-08/12/14 03:45:26.725: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-08/12/14 03:45:26.725: [0xfa0] LOADER: Using data directory /Users/ahau/Documents/marmaladetest/FitMonster/resources as ROM drive
-08/12/14 03:45:26.725: [0xfa0] LOADER: Using directory /Users/ahau/Documents/marmaladetest/FitMonster/resources-ram as RAM drive
-08/12/14 03:45:26.725: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt 0X9 0X0
-08/12/14 03:45:26.725: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt', 'r') succeeded, id=1000 p=0x00152250
-08/12/14 03:45:26.725: [0xfa0] FILE: s3eFileClose h=0x00152250
-08/12/14 03:45:26.725: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt 0X9 0X0
-08/12/14 03:45:26.725: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1001 p=0x0015266c
-08/12/14 03:45:26.725: [0xfa0] FILE: s3eFileClose h=0x0015266c
-08/12/14 03:45:26.725: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/app.config.txt 0X9 0X0
-08/12/14 03:45:26.725: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/app.config.txt', 'r') succeeded, id=1002 p=0x00152a88
-08/12/14 03:45:26.725: [0xfa0] FILE: s3eFileClose h=0x00152a88
-08/12/14 03:45:26.725: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/billing.config.txt 0X9 0X0
-08/12/14 03:45:26.725: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/billing.config.txt', 'r') succeeded, id=1003 p=0x00152ea4
-08/12/14 03:45:26.726: [0xfa0] FILE: s3eFileClose h=0x00152ea4
-08/12/14 03:45:26.726: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt 0X9 0X0
-08/12/14 03:45:26.726: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt', 'r') succeeded, id=1004 p=0x001532c0
-08/12/14 03:45:26.726: [0xfa0] FILE: s3eFileClose h=0x001532c0
-08/12/14 03:45:26.726: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt 0X9 0X0
-08/12/14 03:45:26.726: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt', 'r') succeeded, id=1005 p=0x001536dc
-08/12/14 03:45:26.726: [0xfa0] FILE: s3eFileClose h=0x001536dc
-08/12/14 03:45:26.726: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt 0X9 0X0
-08/12/14 03:45:26.726: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt', 'r') succeeded, id=1006 p=0x00153af8
-08/12/14 03:45:26.726: [0xfa0] FILE: s3eFileClose h=0x00153af8
-08/12/14 03:45:26.726: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt 0X9 0X0
-08/12/14 03:45:26.726: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt', 'r') succeeded, id=1007 p=0x00153f14
-08/12/14 03:45:26.727: [0xfa0] FILE: s3eFileClose h=0x00153f14
-08/12/14 03:45:26.727: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt 0X9 0X0
-08/12/14 03:45:26.727: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt', 'r') succeeded, id=1008 p=0x00154330
-08/12/14 03:45:26.728: [0xfa0] FILE: s3eFileClose h=0x00154330
-08/12/14 03:45:26.728: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt 0X9 0X0
-08/12/14 03:45:26.728: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt', 'r') succeeded, id=1009 p=0x0015474c
-08/12/14 03:45:26.728: [0xfa0] FILE: s3eFileClose h=0x0015474c
-08/12/14 03:45:26.728: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt 0X9 0X0
-08/12/14 03:45:26.728: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt', 'r') succeeded, id=1010 p=0x00154b68
-08/12/14 03:45:26.728: [0xfa0] FILE: s3eFileClose h=0x00154b68
-08/12/14 03:45:26.728: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt 0X9 0X0
-08/12/14 03:45:26.728: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt', 'r') succeeded, id=1011 p=0x00154f84
-08/12/14 03:45:26.728: [0xfa0] FILE: s3eFileClose h=0x00154f84
-08/12/14 03:45:26.728: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/quick.config.txt 0X9 0X0
-08/12/14 03:45:26.728: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/quick.config.txt', 'r') succeeded, id=1012 p=0x001553a0
-08/12/14 03:45:26.729: [0xfa0] FILE: s3eFileClose h=0x001553a0
-08/12/14 03:45:26.729: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
-08/12/14 03:45:26.729: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1013 p=0x001557bc
-08/12/14 03:45:26.735: [0xfa0] FILE: s3eFileClose h=0x001557bc
-08/12/14 03:45:26.735: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
-08/12/14 03:45:26.735: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1014 p=0x00155bd8
-08/12/14 03:45:26.740: [0xfa0] FILE: s3eFileClose h=0x00155bd8
-08/12/14 03:45:26.740: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.icf 0X9 0X0
-08/12/14 03:45:26.740: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.icf', 'rb') succeeded, id=1015 p=0x00155ff4
-08/12/14 03:45:26.740: [0xfa0] LOADER: Loading config from: /Applications/Marmalade.app/Contents/s3e/s3e.icf
-08/12/14 03:45:26.741: [0xfa0] FILE: s3eFileClose h=0x00155ff4
-08/12/14 03:45:26.741: [0xfa0] LOADER: Loading app-icf from command line specified location /Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf
-08/12/14 03:45:26.741: [0xfa0] FILE: open: /Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf 0X9 0X0
-08/12/14 03:45:26.741: [0xfa0] FILE: s3eFileOpen('raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf', 'rb') succeeded, id=1016 p=0x00156410
-08/12/14 03:45:26.741: [0xfa0] LOADER: Loading config from: raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf
-08/12/14 03:45:26.741: [0xfa0] FILE: s3eFileClose h=0x00156410
-08/12/14 03:45:26.742: [0xfa0] FILE: open: /Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf 0X9 0X0
-08/12/14 03:45:26.742: [0xfa0] FILE: s3eFileOpen('raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf', 'rb') succeeded, id=1017 p=0x0015682c
-08/12/14 03:45:26.742: [0xfa0] LOADER: Loading config from: raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf
-08/12/14 03:45:26.742: [0xfa0] FILE: s3eFileClose h=0x0015682c
-08/12/14 03:45:26.742: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via" ]
-08/12/14 03:45:26.742: [0xfa0] LOADER: setting [commandline]  via=/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  via=/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  dll=/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  data=/Users/ahau/Documents/marmaladetest/FitMonster/resources
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  app-icf1=/Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  app-icf2=/Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  osx-ext-dll1=/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView.dylib
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  osx-ext-dll2=/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry.dylib
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt1=/Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt2=/Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt3=/Applications/Marmalade.app/Contents/quick/docs/app.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt4=/Applications/Marmalade.app/Contents/quick/docs/billing.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt5=/Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt6=/Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt7=/Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt8=/Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt9=/Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt10=/Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt11=/Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt12=/Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt13=/Applications/Marmalade.app/Contents/quick/docs/quick.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt14=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  config-txt15=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
+09/12/14 18:09:53.102: [0xfa0] LOADER: setting [commandline]  s3e-dir=/Applications/Marmalade.app/Contents/s3e
+09/12/14 18:09:53.102: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+09/12/14 18:09:53.102: [0xfa0] FILE: fs[00]: system[rom://] '/Users/ahau/Documents/marmaladetest/FitMonster/resources'
+09/12/14 18:09:53.102: [0xfa0] FILE: fs[03]: system[raw://] ''
+09/12/14 18:09:53.102: [0xfa0] FILE: listed 2 active filesystems
+09/12/14 18:09:53.102: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+09/12/14 18:09:53.103: [0xfa0] FILE: fs[00]: system[rom://] '/Users/ahau/Documents/marmaladetest/FitMonster/resources'
+09/12/14 18:09:53.103: [0xfa0] FILE: fs[01]: system[ram://] '/Users/ahau/Documents/marmaladetest/FitMonster/resources-ram'
+09/12/14 18:09:53.103: [0xfa0] FILE: fs[03]: system[raw://] ''
+09/12/14 18:09:53.103: [0xfa0] FILE: listed 3 active filesystems
+09/12/14 18:09:53.103: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+09/12/14 18:09:53.103: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+09/12/14 18:09:53.103: [0xfa0] LOADER: Using data directory /Users/ahau/Documents/marmaladetest/FitMonster/resources as ROM drive
+09/12/14 18:09:53.103: [0xfa0] LOADER: Using directory /Users/ahau/Documents/marmaladetest/FitMonster/resources-ram as RAM drive
+09/12/14 18:09:53.103: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt 0X9 0X0
+09/12/14 18:09:53.103: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt', 'r') succeeded, id=1000 p=0x001b9250
+09/12/14 18:09:53.103: [0xfa0] FILE: s3eFileClose h=0x001b9250
+09/12/14 18:09:53.103: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt 0X9 0X0
+09/12/14 18:09:53.103: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1001 p=0x001b966c
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileClose h=0x001b966c
+09/12/14 18:09:53.104: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/app.config.txt 0X9 0X0
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/app.config.txt', 'r') succeeded, id=1002 p=0x001b9a88
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileClose h=0x001b9a88
+09/12/14 18:09:53.104: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/billing.config.txt 0X9 0X0
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/billing.config.txt', 'r') succeeded, id=1003 p=0x001b9ea4
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileClose h=0x001b9ea4
+09/12/14 18:09:53.104: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt 0X9 0X0
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt', 'r') succeeded, id=1004 p=0x001ba2c0
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileClose h=0x001ba2c0
+09/12/14 18:09:53.104: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt 0X9 0X0
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt', 'r') succeeded, id=1005 p=0x001ba6dc
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileClose h=0x001ba6dc
+09/12/14 18:09:53.104: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt 0X9 0X0
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt', 'r') succeeded, id=1006 p=0x001baaf8
+09/12/14 18:09:53.104: [0xfa0] FILE: s3eFileClose h=0x001baaf8
+09/12/14 18:09:53.105: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt 0X9 0X0
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt', 'r') succeeded, id=1007 p=0x001baf14
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileClose h=0x001baf14
+09/12/14 18:09:53.105: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt 0X9 0X0
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt', 'r') succeeded, id=1008 p=0x001bb330
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileClose h=0x001bb330
+09/12/14 18:09:53.105: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt 0X9 0X0
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt', 'r') succeeded, id=1009 p=0x001bb74c
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileClose h=0x001bb74c
+09/12/14 18:09:53.105: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt 0X9 0X0
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt', 'r') succeeded, id=1010 p=0x001bbb68
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileClose h=0x001bbb68
+09/12/14 18:09:53.105: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt 0X9 0X0
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt', 'r') succeeded, id=1011 p=0x001bbf84
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileClose h=0x001bbf84
+09/12/14 18:09:53.105: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/quick.config.txt 0X9 0X0
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/quick.config.txt', 'r') succeeded, id=1012 p=0x001bc3a0
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileClose h=0x001bc3a0
+09/12/14 18:09:53.105: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
+09/12/14 18:09:53.105: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1013 p=0x001bc7bc
+09/12/14 18:09:53.108: [0xfa0] FILE: s3eFileClose h=0x001bc7bc
+09/12/14 18:09:53.108: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
+09/12/14 18:09:53.108: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1014 p=0x001bcbd8
+09/12/14 18:09:53.111: [0xfa0] FILE: s3eFileClose h=0x001bcbd8
+09/12/14 18:09:53.112: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.icf 0X9 0X0
+09/12/14 18:09:53.112: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.icf', 'rb') succeeded, id=1015 p=0x001bcff4
+09/12/14 18:09:53.112: [0xfa0] LOADER: Loading config from: /Applications/Marmalade.app/Contents/s3e/s3e.icf
+09/12/14 18:09:53.112: [0xfa0] FILE: s3eFileClose h=0x001bcff4
+09/12/14 18:09:53.112: [0xfa0] LOADER: Loading app-icf from command line specified location /Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf
+09/12/14 18:09:53.112: [0xfa0] FILE: open: /Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf 0X9 0X0
+09/12/14 18:09:53.112: [0xfa0] FILE: s3eFileOpen('raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf', 'rb') succeeded, id=1016 p=0x001bd410
+09/12/14 18:09:53.112: [0xfa0] LOADER: Loading config from: raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf
+09/12/14 18:09:53.113: [0xfa0] FILE: s3eFileClose h=0x001bd410
+09/12/14 18:09:53.113: [0xfa0] FILE: open: /Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf 0X9 0X0
+09/12/14 18:09:53.113: [0xfa0] FILE: s3eFileOpen('raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf', 'rb') succeeded, id=1017 p=0x001bd82c
+09/12/14 18:09:53.113: [0xfa0] LOADER: Loading config from: raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf
+09/12/14 18:09:53.113: [0xfa0] FILE: s3eFileClose h=0x001bd82c
+09/12/14 18:09:53.113: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via" ]
+09/12/14 18:09:53.113: [0xfa0] LOADER: setting [commandline]  via=/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
 MarmaladeSDK v7.4.2 [409586] (S3E Loader v4.39.0)
 Copyright (C) 2001-2014 Marmalade Technologies Ltd.
 System Info:
@@ -203,52 +203,52 @@ System Info:
  Unique ID    : SIMULATOR_ID
  Device Name  : 
  Memory       : 1048576KiB
-08/12/14 03:45:26.761: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView_d.dylib' -> 0x7a8a5780
-08/12/14 03:45:26.766: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry_d.dylib' -> 0x7a9825d0
-08/12/14 03:45:26.811: [0xfa0] GL: GLES desired version is 2
-08/12/14 03:45:26.811: [0xfa0] GL: DLL search path: /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2
-08/12/14 03:45:26.812: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib' -> 0x7a985060
-08/12/14 03:45:26.812: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib
-08/12/14 03:45:26.812: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib' -> 0x79698360
-08/12/14 03:45:26.812: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib
-08/12/14 03:45:26.812: [0xfa0] GL: Using GLES 2
-08/12/14 03:45:26.851: [0xfa0] SPLASH: displaying debug splash-screen
-08/12/14 03:45:26.873: [0xfa0] LICENSE: SplashScreenRequired: Splash set in licenseText
-08/12/14 03:45:26.878: [0xfa0] LICENSE: LicenseType: ret true : output=Free
-08/12/14 03:45:26.878: [0xfa0] SPLASH: No splash screen specified
-08/12/14 03:45:26.900: [0xfa0] LICENSE: LicenseType: ret true : output=Free
-08/12/14 03:45:26.900: [0xfa0] SOCKET: s3eSocketCreate -> p=0x001f7040 id=3000
-08/12/14 03:45:26.900: [0xfa0] SOCKET: s3eInetLookup: 'www.google-analytics.com'
-08/12/14 03:45:26.902: [0xfa0] SOCKET: s3eInetLookup (synchronous): done DNS: '74.125.226.40:0'
-08/12/14 03:45:26.902: [0xfa0] SOCKET: s3eSocketConnect: 0x001f7040 -> 74.125.226.40:80
-08/12/14 03:45:26.902: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-08/12/14 03:45:26.902: [0xfa0] SOCKET: Connect: FAILED (0: )
-08/12/14 03:45:26.904: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86' -> 0x79778f30
-08/12/14 03:45:26.931: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-08/12/14 03:45:26.931: [0xfa0] SOCKET: NotifyConnect: 3000 0x001f7040
-08/12/14 03:45:26.931: [0xfa0] SOCKET: s3eSocketClose: 0x001f7040 open=1
-08/12/14 03:45:28.857: [0xfa0] VIDEO: s3eVideoPlay raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg
-08/12/14 03:45:28.857: [0xfa0] VIDEO: data in in JPG (EXIF) format
-08/12/14 03:45:28.857: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
-08/12/14 03:45:28.857: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg
-08/12/14 03:45:28.857: [0xfa0] JPEG: loading jpeg file: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg [37220]
-08/12/14 03:45:28.857: [0xfa0] JPEG: jpeg head was read: [320x320]
-08/12/14 03:45:28.861: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
-08/12/14 03:45:28.861: [0xfa0] JPEG: from [320x320] to [320x320]
-08/12/14 03:45:28.870: [0xfa0] VIDEO: s3eVideoPlay done: 0
-08/12/14 03:45:30.859: [0xfa0] VIDEO: s3eVideoPlay raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg
-08/12/14 03:45:30.859: [0xfa0] VIDEO: data in in JPG (EXIF) format
-08/12/14 03:45:30.859: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
-08/12/14 03:45:30.859: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg
-08/12/14 03:45:30.859: [0xfa0] JPEG: loading jpeg file: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg [30325]
-08/12/14 03:45:30.859: [0xfa0] JPEG: jpeg head was read: [320x320]
-08/12/14 03:45:30.863: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
-08/12/14 03:45:30.863: [0xfa0] JPEG: from [320x320] to [320x320]
-08/12/14 03:45:30.873: [0xfa0] VIDEO: s3eVideoPlay done: 0
-08/12/14 03:45:36.870: [0xfa0] GL: s3eEglInitialize: 0x7a8c0240 -> 1 1.4
-08/12/14 03:45:36.876: [0xfa0] GL: eglCreateContext: 0x796a12d0
-08/12/14 03:45:36.876: [0xfa0] GL: s3eGLGetNativeWindow_platform: main win=0x79771260
-08/12/14 03:45:36.877: [0xfa0] GL: s3eGLGetNativeWindow_platform: 0x7a8d1fd0
+09/12/14 18:09:53.137: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView_d.dylib' -> 0x79c289d0
+09/12/14 18:09:53.140: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry_d.dylib' -> 0x79c29bd0
+09/12/14 18:09:53.173: [0xfa0] GL: GLES desired version is 2
+09/12/14 18:09:53.173: [0xfa0] GL: DLL search path: /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2
+09/12/14 18:09:53.174: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib' -> 0x78f389a0
+09/12/14 18:09:53.174: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib
+09/12/14 18:09:53.174: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib' -> 0x78f38bb0
+09/12/14 18:09:53.174: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib
+09/12/14 18:09:53.175: [0xfa0] GL: Using GLES 2
+09/12/14 18:09:53.213: [0xfa0] SPLASH: displaying debug splash-screen
+09/12/14 18:09:53.233: [0xfa0] LICENSE: SplashScreenRequired: Splash set in licenseText
+09/12/14 18:09:53.237: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+09/12/14 18:09:53.237: [0xfa0] SPLASH: No splash screen specified
+09/12/14 18:09:53.266: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+09/12/14 18:09:53.266: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025e040 id=3000
+09/12/14 18:09:53.266: [0xfa0] SOCKET: s3eInetLookup: 'www.google-analytics.com'
+09/12/14 18:09:53.267: [0xfa0] SOCKET: s3eInetLookup (synchronous): done DNS: '74.125.228.33:0'
+09/12/14 18:09:53.267: [0xfa0] SOCKET: s3eSocketConnect: 0x0025e040 -> 74.125.228.33:80
+09/12/14 18:09:53.267: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:09:53.267: [0xfa0] SOCKET: Connect: FAILED (0: )
+09/12/14 18:09:53.268: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86' -> 0x79c35e20
+09/12/14 18:09:53.303: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:09:53.303: [0xfa0] SOCKET: NotifyConnect: 3000 0x0025e040
+09/12/14 18:09:53.303: [0xfa0] SOCKET: s3eSocketClose: 0x0025e040 open=1
+09/12/14 18:09:55.219: [0xfa0] VIDEO: s3eVideoPlay raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg
+09/12/14 18:09:55.219: [0xfa0] VIDEO: data in in JPG (EXIF) format
+09/12/14 18:09:55.219: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+09/12/14 18:09:55.219: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg
+09/12/14 18:09:55.219: [0xfa0] JPEG: loading jpeg file: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg [37220]
+09/12/14 18:09:55.220: [0xfa0] JPEG: jpeg head was read: [320x320]
+09/12/14 18:09:55.223: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
+09/12/14 18:09:55.223: [0xfa0] JPEG: from [320x320] to [320x320]
+09/12/14 18:09:55.231: [0xfa0] VIDEO: s3eVideoPlay done: 0
+09/12/14 18:09:57.217: [0xfa0] VIDEO: s3eVideoPlay raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg
+09/12/14 18:09:57.217: [0xfa0] VIDEO: data in in JPG (EXIF) format
+09/12/14 18:09:57.217: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+09/12/14 18:09:57.217: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg
+09/12/14 18:09:57.217: [0xfa0] JPEG: loading jpeg file: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg [30325]
+09/12/14 18:09:57.218: [0xfa0] JPEG: jpeg head was read: [320x320]
+09/12/14 18:09:57.222: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
+09/12/14 18:09:57.222: [0xfa0] JPEG: from [320x320] to [320x320]
+09/12/14 18:09:57.230: [0xfa0] VIDEO: s3eVideoPlay done: 0
+09/12/14 18:10:03.224: [0xfa0] GL: s3eEglInitialize: 0x78f26290 -> 1 1.4
+09/12/14 18:10:03.228: [0xfa0] GL: eglCreateContext: 0x79852fc0
+09/12/14 18:10:03.228: [0xfa0] GL: s3eGLGetNativeWindow_platform: main win=0x78e1e480
+09/12/14 18:10:03.230: [0xfa0] GL: s3eGLGetNativeWindow_platform: 0x79867990
 
 
 QUICKCPP LOG: Marmalade Quick 1.1
@@ -257,32 +257,21 @@ QUICKCPP WARNING: Failed to load config lua file
 QUICKCPP LOG: Loading Quick engine...
 QUICKCPP LOG: Loading app...
 Creating default font
-08/12/14 03:45:37.043: [0xfa0] SOCKET: s3eSocketCreate -> p=0x001f715c id=3001
-08/12/14 03:45:37.043: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-08/12/14 03:45:37.043: [0xfa0] SOCKET: s3eSocketConnect: 0x001f715c -> 54.148.44.95:5000
+09/12/14 18:10:03.389: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025e15c id=3001
+09/12/14 18:10:03.389: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+09/12/14 18:10:03.389: [0xfa0] SOCKET: s3eSocketConnect: 0x0025e15c -> 54.148.44.95:5000
 ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-08/12/14 03:45:37.044: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-08/12/14 03:45:37.044: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-08/12/14 03:45:37.148: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-08/12/14 03:45:37.148: [0xfa0] SOCKET: NotifyConnect: 3001 0x001f715c
-08/12/14 03:45:38.016: [0xfa0] SOCKET: s3eSocketClose: 0x001f715c open=1
+09/12/14 18:10:03.389: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:10:03.389: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+09/12/14 18:10:03.501: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:10:03.501: [0xfa0] SOCKET: NotifyConnect: 3001 0x0025e15c
+09/12/14 18:10:04.054: [0xfa0] SOCKET: s3eSocketClose: 0x0025e15c open=1
 This is my app alan!
-setup leaderboardScene
-leaderboardScene:enterPostTransition
-08/12/14 03:46:49.834: [0xfa0] SOCKET: s3eSocketCreate -> p=0x001f7278 id=3002
-08/12/14 03:46:49.835: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-08/12/14 03:46:49.835: [0xfa0] SOCKET: s3eSocketConnect: 0x001f7278 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-08/12/14 03:46:49.835: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-08/12/14 03:46:49.835: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-08/12/14 03:46:49.941: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-08/12/14 03:46:49.941: [0xfa0] SOCKET: NotifyConnect: 3002 0x001f7278
-08/12/14 03:46:50.253: [0xfa0] SOCKET: s3eSocketClose: 0x001f7278 open=1
 setup arenaScene
 scene1:enterPreTransition
 scene1:enterPostTransition
-08/12/14 03:48:29.694: [0xa0c5d1d4] LOCATION: s3eLocationStart done
-08/12/14 03:48:29.695: [0xa0c5d1d4] LOCATION: s3eLocationStop
+09/12/14 18:10:08.214: [0xa0c5d1d4] LOCATION: s3eLocationStart done
+09/12/14 18:10:08.215: [0xa0c5d1d4] LOCATION: s3eLocationStop
 lon:-0.19108399748802lat:51.511791229248
 {
   lon: -0.19108399748802
@@ -296,18 +285,18 @@ lon:-0.19108399748802lat:51.511791229248
     age: 0
     imgSrc: 'lvl3.png'
   }
-  UID: 'jhbfjhsb'
+  UID: 'alanhau'
 }
-{"lon":-0.19108399748802,"lat":51.511791229248,"monster":{"nextlvl":244,"isAlive":1,"name":"poopiePants","currentlvl":10,"age":0,"imgSrc":"lvl3.png"},"UID":"jhbfjhsb"}
-08/12/14 03:48:29.696: [0xfa0] SOCKET: s3eSocketCreate -> p=0x001f7394 id=3003
-08/12/14 03:48:29.696: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-08/12/14 03:48:29.696: [0xfa0] SOCKET: s3eSocketConnect: 0x001f7394 -> 54.148.44.95:5000
+{"lon":-0.19108399748802,"lat":51.511791229248,"monster":{"nextlvl":244,"isAlive":1,"name":"poopiePants","currentlvl":10,"age":0,"imgSrc":"lvl3.png"},"UID":"alanhau"}
+09/12/14 18:10:08.216: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025e278 id=3002
+09/12/14 18:10:08.216: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+09/12/14 18:10:08.216: [0xfa0] SOCKET: s3eSocketConnect: 0x0025e278 -> 54.148.44.95:5000
 ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-08/12/14 03:48:29.696: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-08/12/14 03:48:29.696: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-08/12/14 03:48:29.801: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-08/12/14 03:48:29.801: [0xfa0] SOCKET: NotifyConnect: 3003 0x001f7394
-08/12/14 03:48:30.010: [0xfa0] SOCKET: s3eSocketClose: 0x001f7394 open=1
+09/12/14 18:10:08.216: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:10:08.216: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+09/12/14 18:10:08.327: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:10:08.327: [0xfa0] SOCKET: NotifyConnect: 3002 0x0025e278
+09/12/14 18:10:08.548: [0xfa0] SOCKET: s3eSocketClose: 0x0025e278 open=1
 X:48Y:324
 X:128Y:324
 X:208Y:324
@@ -315,29 +304,84 @@ X:288Y:324
 X:48Y:264
 X:128Y:264
 X:208Y:264
-4
+3
 setup battlegroundScene
 scene1:exitPreTransition
 scene1:exitPostTransition
 Battlegroundscene:enterPostTransition
-chosen monster: 4{"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Lambtron","currentlvl":2,"age":0,"imgSrc":"lvl2.png"}}
-chosenNeighbor: {"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Lambtron","currentlvl":2,"age":0,"imgSrc":"lvl2.png"}}
+chosen monster: 3{"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Pengin","currentlvl":2,"age":0,"imgSrc":"lvl4.png"}}
+chosenNeighbor: {"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Pengin","currentlvl":2,"age":0,"imgSrc":"lvl4.png"}}
 battle sprite collision...determine outcome
 Outcome: 1
-08/12/14 03:49:28.764: [0xfa0] SOCKET: s3eSocketCreate -> p=0x001f74b0 id=3004
-08/12/14 03:49:28.764: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-08/12/14 03:49:28.764: [0xfa0] SOCKET: s3eSocketConnect: 0x001f74b0 -> 54.148.44.95:5000
+09/12/14 18:11:10.687: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025e394 id=3003
+09/12/14 18:11:10.687: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+09/12/14 18:11:10.687: [0xfa0] SOCKET: s3eSocketConnect: 0x0025e394 -> 54.148.44.95:5000
 ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-08/12/14 03:49:28.764: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-08/12/14 03:49:28.764: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-08/12/14 03:49:28.873: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-08/12/14 03:49:28.873: [0xfa0] SOCKET: NotifyConnect: 3004 0x001f74b0
-08/12/14 03:49:29.081: [0xfa0] SOCKET: s3eSocketClose: 0x001f74b0 open=1
+09/12/14 18:11:10.688: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:11:10.688: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+09/12/14 18:11:10.799: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:11:10.799: [0xfa0] SOCKET: NotifyConnect: 3003 0x0025e394
+09/12/14 18:11:11.015: [0xfa0] SOCKET: s3eSocketClose: 0x0025e394 open=1
+battle sprite collision...determine outcome
+Outcome: 1
+09/12/14 18:11:11.084: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025e4b0 id=3004
+09/12/14 18:11:11.084: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+09/12/14 18:11:11.084: [0xfa0] SOCKET: s3eSocketConnect: 0x0025e4b0 -> 54.148.44.95:5000
+ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
+09/12/14 18:11:11.084: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:11:11.084: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+09/12/14 18:11:11.194: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:11:11.194: [0xfa0] SOCKET: NotifyConnect: 3004 0x0025e4b0
+09/12/14 18:11:11.409: [0xfa0] SOCKET: s3eSocketClose: 0x0025e4b0 open=1
+battle sprite collision...determine outcome
+Outcome: 1
+09/12/14 18:11:11.477: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025e5cc id=3005
+09/12/14 18:11:11.477: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+09/12/14 18:11:11.477: [0xfa0] SOCKET: s3eSocketConnect: 0x0025e5cc -> 54.148.44.95:5000
+ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
+09/12/14 18:11:11.477: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:11:11.477: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+09/12/14 18:11:11.581: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:11:11.581: [0xfa0] SOCKET: NotifyConnect: 3005 0x0025e5cc
+09/12/14 18:11:11.799: [0xfa0] SOCKET: s3eSocketClose: 0x0025e5cc open=1
+battle sprite collision...determine outcome
+Outcome: 1
+09/12/14 18:11:11.855: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025e6e8 id=3006
+09/12/14 18:11:11.855: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+09/12/14 18:11:11.855: [0xfa0] SOCKET: s3eSocketConnect: 0x0025e6e8 -> 54.148.44.95:5000
+ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
+09/12/14 18:11:11.855: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:11:11.855: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+09/12/14 18:11:11.978: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:11:11.978: [0xfa0] SOCKET: NotifyConnect: 3006 0x0025e6e8
+09/12/14 18:11:12.221: [0xfa0] SOCKET: s3eSocketClose: 0x0025e6e8 open=1
+battle sprite collision...determine outcome
+Outcome: 1
+09/12/14 18:11:12.306: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025e804 id=3007
+09/12/14 18:11:12.306: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+09/12/14 18:11:12.306: [0xfa0] SOCKET: s3eSocketConnect: 0x0025e804 -> 54.148.44.95:5000
+ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
+09/12/14 18:11:12.307: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:11:12.307: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+09/12/14 18:11:12.413: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:11:12.413: [0xfa0] SOCKET: NotifyConnect: 3007 0x0025e804
+09/12/14 18:11:12.625: [0xfa0] SOCKET: s3eSocketClose: 0x0025e804 open=1
+battle sprite collision...determine outcome
+Outcome: 1
+09/12/14 18:11:12.693: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025e920 id=3008
+09/12/14 18:11:12.693: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+09/12/14 18:11:12.693: [0xfa0] SOCKET: s3eSocketConnect: 0x0025e920 -> 54.148.44.95:5000
+ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
+09/12/14 18:11:12.693: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:11:12.693: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+09/12/14 18:11:12.799: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:11:12.799: [0xfa0] SOCKET: NotifyConnect: 3008 0x0025e920
+09/12/14 18:11:13.016: [0xfa0] SOCKET: s3eSocketClose: 0x0025e920 open=1
 setup arenaScene
 scene1:enterPreTransition
 scene1:enterPostTransition
-08/12/14 03:49:38.182: [0xa0c5d1d4] LOCATION: s3eLocationStart done
-08/12/14 03:49:38.183: [0xa0c5d1d4] LOCATION: s3eLocationStop
+09/12/14 18:11:19.811: [0xa0c5d1d4] LOCATION: s3eLocationStart done
+09/12/14 18:11:19.813: [0xa0c5d1d4] LOCATION: s3eLocationStop
 lon:-0.19108399748802lat:51.511791229248
 {
   lon: -0.19108399748802
@@ -351,18 +395,18 @@ lon:-0.19108399748802lat:51.511791229248
     age: 0
     imgSrc: 'lvl3.png'
   }
-  UID: 'jhbfjhsb'
+  UID: 'alanhau'
 }
-{"lon":-0.19108399748802,"lat":51.511791229248,"monster":{"nextlvl":244,"isAlive":1,"name":"poopiePants","currentlvl":10,"age":0,"imgSrc":"lvl3.png"},"UID":"jhbfjhsb"}
-08/12/14 03:49:38.184: [0xfa0] SOCKET: s3eSocketCreate -> p=0x001f75cc id=3005
-08/12/14 03:49:38.184: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-08/12/14 03:49:38.184: [0xfa0] SOCKET: s3eSocketConnect: 0x001f75cc -> 54.148.44.95:5000
+{"lon":-0.19108399748802,"lat":51.511791229248,"monster":{"nextlvl":244,"isAlive":1,"name":"poopiePants","currentlvl":10,"age":0,"imgSrc":"lvl3.png"},"UID":"alanhau"}
+09/12/14 18:11:19.814: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0025ea3c id=3009
+09/12/14 18:11:19.814: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+09/12/14 18:11:19.814: [0xfa0] SOCKET: s3eSocketConnect: 0x0025ea3c -> 54.148.44.95:5000
 ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-08/12/14 03:49:38.184: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-08/12/14 03:49:38.184: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-08/12/14 03:49:38.295: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-08/12/14 03:49:38.295: [0xfa0] SOCKET: NotifyConnect: 3005 0x001f75cc
-08/12/14 03:49:38.503: [0xfa0] SOCKET: s3eSocketClose: 0x001f75cc open=1
+09/12/14 18:11:19.814: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+09/12/14 18:11:19.814: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+09/12/14 18:11:19.922: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+09/12/14 18:11:19.922: [0xfa0] SOCKET: NotifyConnect: 3009 0x0025ea3c
+09/12/14 18:11:20.149: [0xfa0] SOCKET: s3eSocketClose: 0x0025ea3c open=1
 X:48Y:324
 X:128Y:324
 X:208Y:324
@@ -370,17 +414,3 @@ X:288Y:324
 X:48Y:264
 X:128Y:264
 X:208Y:264
-scene1:exitPreTransition
-scene1:exitPreTransition
-scene1:exitPostTransition
-setup leaderboardScene
-leaderboardScene:enterPostTransition
-08/12/14 03:49:43.662: [0xfa0] SOCKET: s3eSocketCreate -> p=0x001f76e8 id=3006
-08/12/14 03:49:43.662: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-08/12/14 03:49:43.662: [0xfa0] SOCKET: s3eSocketConnect: 0x001f76e8 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-08/12/14 03:49:43.662: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-08/12/14 03:49:43.662: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-08/12/14 03:49:43.769: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-08/12/14 03:49:43.769: [0xfa0] SOCKET: NotifyConnect: 3006 0x001f76e8
-08/12/14 03:49:43.976: [0xfa0] SOCKET: s3eSocketClose: 0x001f76e8 open=1

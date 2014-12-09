@@ -28,4 +28,10 @@ MemMgrMaxAllocWarning=0
 mainFilename="main.lua"
 [s3e]
 SysAppVersion=0.0.1
-SysAppCaption="teststg1"
+SysAppCaption="FitMonster"
+SplashScreenFile=splash_FitMonster.jpg
+SplashScreenWidth=378
+SplashScreenHeight=392
+SplashScreenBkR=0x00
+SplashScreenBkG=0x00
+SplashScreenBkB=0x00

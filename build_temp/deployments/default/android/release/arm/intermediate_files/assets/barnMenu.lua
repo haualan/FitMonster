@@ -15,7 +15,8 @@ local evolveText
 
 local pathS = system:getFilePath("storage")
 local chiPoints = 100
-local monsterState
+
+monsterState = 0
 
 local newMonster = {
   name = "poopiePants",
@@ -31,6 +32,9 @@ local newMonster = {
 local monsterSprite
 local monsterStateLabel
 local chiPointsLabel
+
+local http = require("socket.http")
+local ltn12 = require("ltn12")
 
 
 function goToMainMenu()
@@ -69,6 +73,25 @@ function load()
     return monsterState
 end
 
+function getChiPoints()
+  local recTable ={}
+  local result = 0
+  local a,b,c,d = http.request( {
+    url = SERVER .. '/getFloorsTimeSeries',
+    method = 'GET',
+    sink = ltn12.sink.table(recTable)
+    } )
+
+    -- parse into response, only keep the inner table from result
+    recTable = json.decode(recTable[1])['result']
+
+    for key,value in ipairs(recTable) do
+      result = result + value[2]
+    end
+
+    return result
+end
+
 function updateSprite()
   local newSprite = director:createSprite(director.displayCenterX, director.displayCenterY , "asset/".. monsterState.imgSrc)
   newSprite.xAnchor = 0.5
@@ -93,7 +116,7 @@ function evolve(event)
       -- set new stats
       monsterState.currentlvl = monsterState.currentlvl + 1
       monsterState.nextlvl = math.floor(monsterState.nextlvl * 1.5)
-      monsterState.imgSrc = "lvl1.png"
+      monsterState.imgSrc = "lvl" .. math.random(0,4) ..".png"
 
       -- Update UI sprites
       -- do 
@@ -172,9 +195,11 @@ local arenaText = director:createLabel( {
 arenaButton:addChild(arenaText)
 
 
+-- load Floors/chiPoints from FitBit:
+chiPoints = getChiPoints()
+
 -- show status for your monster and if you don't have monster, spawn one.
 -- read local file to see if monster is loaded.
-
 monsterState = load()
 
 -- load monster image
