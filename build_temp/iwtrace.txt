@@ -5,250 +5,250 @@ MarmaladeSDK v7.4.2 [409586] (S3E Loader v4.39.0)
 Copyright (C) 2001-2014 Marmalade Technologies Ltd.
 System Info:
  OS           : OSX (13)
- OS Version   : Darwin 13.4.0 (13.4)
+ OS Version   : Darwin 14.0.0 (14.0)
  Device ID    : OSX (0x1)
  Device Class : WINDOWS_GENERIC (3000)
  Phone Number : 0044123456789
  Unique ID    : SIMULATOR_ID
  Device Name  : 
  Memory       : 1048576KiB
-10/12/14 06:15:43.124: [0xfa0] DEVICE: Initialising SURFACE
-10/12/14 06:15:43.125: [0xa16941a8] SURFACE: video driver: Quartz
-10/12/14 06:15:43.125: [0xa16941a8] SURFACE: hw_available: 0
-10/12/14 06:15:43.125: [0xa16941a8] SURFACE: wm_available: 1
-10/12/14 06:15:43.125: [0xa16941a8] SURFACE: bpp         : 32
-10/12/14 06:15:43.125: [0xa16941a8] SURFACE: blit_hw     : 0
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: video_mem   : 0
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: current_w   : 1366
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: current_h   : 768
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: ConfigureSDLVideo_real 0x0 fullscreen 0
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: requesting window: 800x600
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: SDL_HWSURFACE  : 0
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: SDL_ANYFORMAT  : 1
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: SDL_HWACCEL    : 0
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: SDL_ASYNCBLIT  : 0
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: SDL_DOUBLEBUF  : 0
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: SDL_FULLSCREEN : 0
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: SDL_RESIZABLE  : 1
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: SDL_OPENGL     : 0
-10/12/14 06:15:43.126: [0xa16941a8] SURFACE: calling SetVideoMode: 800x600 16 0x10000010
-10/12/14 06:15:43.175: [0xa16941a8] SURFACE: mallocd surface: 0x04b89000 800x600 pitch=3200
-10/12/14 06:15:43.175: [0xa16941a8] SURFACE: format = XBGR888 ptr = 0x04b89000, owned = 1, size = 1920000
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: direct copyup: 0 must_lock: 1
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: native: 800x600 (ptr: 0x049b4000 pitch: 3200 bpp: 32)
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: bytes per pixel: 4 colorkey: 0 alpha: 255
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: RGBA shift:     8    16    24     0
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: RGBA loss :     0     0     0     8
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: RGBA mask : 0xff00 0xff0000 0xff000000   0x0
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: SDL_HWSURFACE  : 0
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: SDL_ANYFORMAT  : 0
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: SDL_HWACCEL    : 0
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: SDL_ASYNCBLIT  : 1
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: SDL_DOUBLEBUF  : 0
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: SDL_FULLSCREEN : 0
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: SDL_RESIZABLE  : 1
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: SDL_OPENGL     : 0
-10/12/14 06:15:43.176: [0xa16941a8] SURFACE: got dimensions from SDL_GetVideoSurface: 800 600
-10/12/14 06:15:43.176: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-10/12/14 06:15:43.176: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB565 native=XBGR888)
-10/12/14 06:15:43.176: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:3200 (800x600 p:1600) o:0
-10/12/14 06:15:43.176: [0xfa0] DEVICE: Initialising EXT
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
-10/12/14 06:15:43.176: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
-10/12/14 06:15:43.177: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
-10/12/14 06:15:43.177: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
-10/12/14 06:15:43.177: [0xfa0] EXT: registering extension: Location [0x7604d91e]
-10/12/14 06:15:43.177: [0xfa0] EXT: registering extension: OSXDataDirChange [0x48ecb37e]
-10/12/14 06:15:43.177: [0xfa0] DEVICE: Initialising CONFIG
-10/12/14 06:15:43.177: [0xfa0] DEVICE: Initialising TIMER
-10/12/14 06:15:43.177: [0xfa0] DEVICE: Initialising COMPRESSION
-10/12/14 06:15:43.177: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
-10/12/14 06:15:43.177: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
-10/12/14 06:15:43.177: [0xfa0] EXT: initializing extension: s3eWindow
-10/12/14 06:15:43.177: [0xfa0] EXT: initializing extension: s3eWindow 0x000ffad0
-10/12/14 06:15:43.177: [0xfa0] DEVICE: SetupPaths: NULL
-10/12/14 06:15:43.177: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/siyifan/Documents/FitMonster/FitMonster/build_temp/teststg1_release.via" ]
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  via=/Users/siyifan/Documents/FitMonster/FitMonster/build_temp/teststg1_release.via
-10/12/14 06:15:43.177: [0xfa0] LOADER: parsing via file: /Users/siyifan/Documents/FitMonster/FitMonster/build_temp/teststg1_release.via
-10/12/14 06:15:43.177: [0xfa0] FILE: open: /Users/siyifan/Documents/FitMonster/FitMonster/build_temp/teststg1_release.via 0X9 0X0
-10/12/14 06:15:43.177: [0xfa0] FILE: s3eFileOpen('/Users/siyifan/Documents/FitMonster/FitMonster/build_temp/teststg1_release.via', 'r') succeeded, id=2193544 p=0x00217888
-10/12/14 06:15:43.177: [0xfa0] LOADER: reading 1817 bytes from via files
-10/12/14 06:15:43.177: [0xfa0] FILE: s3eFileClose h=0x00217888
-10/12/14 06:15:43.177: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/siyifan/Documents/FitMonster/FitMonster/build_temp/teststg1_release.via"  --dll="/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86"
---data="/Users/siyifan/Doc
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  via=/Users/siyifan/Documents/FitMonster/FitMonster/build_temp/teststg1_release.via
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  dll=/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  data=/Users/siyifan/Documents/FitMonster/FitMonster/resources
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  app-icf1=/Users/siyifan/Documents/FitMonster/FitMonster/resources/common.icf
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  app-icf2=/Users/siyifan/Documents/FitMonster/FitMonster/resources/app.icf
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  osx-ext-dll1=/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView.dylib
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  osx-ext-dll2=/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry.dylib
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  config-txt1=/Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  config-txt2=/Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  config-txt3=/Applications/Marmalade.app/Contents/quick/docs/app.config.txt
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  config-txt4=/Applications/Marmalade.app/Contents/quick/docs/billing.config.txt
-10/12/14 06:15:43.177: [0xfa0] LOADER: setting [commandline]  config-txt5=/Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt6=/Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt7=/Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt8=/Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt9=/Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt10=/Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt11=/Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt12=/Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt13=/Applications/Marmalade.app/Contents/quick/docs/quick.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt14=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  config-txt15=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
-10/12/14 06:15:43.178: [0xfa0] LOADER: setting [commandline]  s3e-dir=/Applications/Marmalade.app/Contents/s3e
-10/12/14 06:15:43.178: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-10/12/14 06:15:43.178: [0xfa0] FILE: fs[00]: system[rom://] '/Users/siyifan/Documents/FitMonster/FitMonster/resources'
-10/12/14 06:15:43.178: [0xfa0] FILE: fs[03]: system[raw://] ''
-10/12/14 06:15:43.178: [0xfa0] FILE: listed 2 active filesystems
-10/12/14 06:15:43.178: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-10/12/14 06:15:43.178: [0xfa0] FILE: fs[00]: system[rom://] '/Users/siyifan/Documents/FitMonster/FitMonster/resources'
-10/12/14 06:15:43.178: [0xfa0] FILE: fs[01]: system[ram://] '/Users/siyifan/Documents/FitMonster/FitMonster/resources-ram'
-10/12/14 06:15:43.178: [0xfa0] FILE: fs[03]: system[raw://] ''
-10/12/14 06:15:43.178: [0xfa0] FILE: listed 3 active filesystems
-10/12/14 06:15:43.179: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-10/12/14 06:15:43.179: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-10/12/14 06:15:43.179: [0xfa0] LOADER: Using data directory /Users/siyifan/Documents/FitMonster/FitMonster/resources as ROM drive
-10/12/14 06:15:43.179: [0xfa0] LOADER: Using directory /Users/siyifan/Documents/FitMonster/FitMonster/resources-ram as RAM drive
-10/12/14 06:15:43.179: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt 0X9 0X0
-10/12/14 06:15:43.179: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt', 'r') succeeded, id=1000 p=0x00219250
-10/12/14 06:15:43.179: [0xfa0] FILE: s3eFileClose h=0x00219250
-10/12/14 06:15:43.179: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt 0X9 0X0
-10/12/14 06:15:43.179: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1001 p=0x0021966c
-10/12/14 06:15:43.179: [0xfa0] FILE: s3eFileClose h=0x0021966c
-10/12/14 06:15:43.179: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/app.config.txt 0X9 0X0
-10/12/14 06:15:43.179: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/app.config.txt', 'r') succeeded, id=1002 p=0x00219a88
-10/12/14 06:15:43.179: [0xfa0] FILE: s3eFileClose h=0x00219a88
-10/12/14 06:15:43.179: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/billing.config.txt 0X9 0X0
-10/12/14 06:15:43.180: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/billing.config.txt', 'r') succeeded, id=1003 p=0x00219ea4
-10/12/14 06:15:43.180: [0xfa0] FILE: s3eFileClose h=0x00219ea4
-10/12/14 06:15:43.180: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt 0X9 0X0
-10/12/14 06:15:43.180: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt', 'r') succeeded, id=1004 p=0x0021a2c0
-10/12/14 06:15:43.180: [0xfa0] FILE: s3eFileClose h=0x0021a2c0
-10/12/14 06:15:43.180: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt 0X9 0X0
-10/12/14 06:15:43.180: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt', 'r') succeeded, id=1005 p=0x0021a6dc
-10/12/14 06:15:43.180: [0xfa0] FILE: s3eFileClose h=0x0021a6dc
-10/12/14 06:15:43.180: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt 0X9 0X0
-10/12/14 06:15:43.180: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt', 'r') succeeded, id=1006 p=0x0021aaf8
-10/12/14 06:15:43.180: [0xfa0] FILE: s3eFileClose h=0x0021aaf8
-10/12/14 06:15:43.180: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt 0X9 0X0
-10/12/14 06:15:43.180: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt', 'r') succeeded, id=1007 p=0x0021af14
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileClose h=0x0021af14
-10/12/14 06:15:43.181: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt 0X9 0X0
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt', 'r') succeeded, id=1008 p=0x0021b330
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileClose h=0x0021b330
-10/12/14 06:15:43.181: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt 0X9 0X0
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt', 'r') succeeded, id=1009 p=0x0021b74c
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileClose h=0x0021b74c
-10/12/14 06:15:43.181: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt 0X9 0X0
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt', 'r') succeeded, id=1010 p=0x0021bb68
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileClose h=0x0021bb68
-10/12/14 06:15:43.181: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt 0X9 0X0
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt', 'r') succeeded, id=1011 p=0x0021bf84
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileClose h=0x0021bf84
-10/12/14 06:15:43.181: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/quick.config.txt 0X9 0X0
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/quick.config.txt', 'r') succeeded, id=1012 p=0x0021c3a0
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileClose h=0x0021c3a0
-10/12/14 06:15:43.181: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
-10/12/14 06:15:43.181: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1013 p=0x0021c7bc
-10/12/14 06:15:43.187: [0xfa0] FILE: s3eFileClose h=0x0021c7bc
-10/12/14 06:15:43.187: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
-10/12/14 06:15:43.187: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1014 p=0x0021cbd8
-10/12/14 06:15:43.192: [0xfa0] FILE: s3eFileClose h=0x0021cbd8
-10/12/14 06:15:43.193: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.icf 0X9 0X0
-10/12/14 06:15:43.193: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.icf', 'rb') succeeded, id=1015 p=0x0021cff4
-10/12/14 06:15:43.193: [0xfa0] LOADER: Loading config from: /Applications/Marmalade.app/Contents/s3e/s3e.icf
-10/12/14 06:15:43.194: [0xfa0] FILE: s3eFileClose h=0x0021cff4
-10/12/14 06:15:43.194: [0xfa0] LOADER: Loading app-icf from command line specified location /Users/siyifan/Documents/FitMonster/FitMonster/resources/common.icf
-10/12/14 06:15:43.194: [0xfa0] FILE: open: /Users/siyifan/Documents/FitMonster/FitMonster/resources/common.icf 0X9 0X0
-10/12/14 06:15:43.194: [0xfa0] FILE: s3eFileOpen('raw:///Users/siyifan/Documents/FitMonster/FitMonster/resources/common.icf', 'rb') succeeded, id=1016 p=0x0021d410
-10/12/14 06:15:43.194: [0xfa0] LOADER: Loading config from: raw:///Users/siyifan/Documents/FitMonster/FitMonster/resources/common.icf
-10/12/14 06:15:43.194: [0xfa0] FILE: s3eFileClose h=0x0021d410
-10/12/14 06:15:43.194: [0xfa0] FILE: open: /Users/siyifan/Documents/FitMonster/FitMonster/resources/app.icf 0X9 0X0
-10/12/14 06:15:43.194: [0xfa0] FILE: s3eFileOpen('raw:///Users/siyifan/Documents/FitMonster/FitMonster/resources/app.icf', 'rb') succeeded, id=1017 p=0x0021d82c
-10/12/14 06:15:43.194: [0xfa0] LOADER: Loading config from: raw:///Users/siyifan/Documents/FitMonster/FitMonster/resources/app.icf
-10/12/14 06:15:43.194: [0xfa0] FILE: s3eFileClose h=0x0021d82c
-10/12/14 06:15:43.195: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/siyifan/Documents/FitMonster/FitMonster/build_temp/teststg1_release.via" ]
-10/12/14 06:15:43.195: [0xfa0] LOADER: setting [commandline]  via=/Users/siyifan/Documents/FitMonster/FitMonster/build_temp/teststg1_release.via
+10/12/14 08:33:58.986: [0xfa0] DEVICE: Initialising SURFACE
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: video driver: Quartz
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: hw_available: 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: wm_available: 1
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: bpp         : 32
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: blit_hw     : 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: video_mem   : 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: current_w   : 1440
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: current_h   : 900
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: ConfigureSDLVideo_real 0x0 fullscreen 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: requesting window: 800x600
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: SDL_HWSURFACE  : 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: SDL_ANYFORMAT  : 1
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: SDL_HWACCEL    : 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: SDL_ASYNCBLIT  : 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: SDL_DOUBLEBUF  : 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: SDL_FULLSCREEN : 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: SDL_RESIZABLE  : 1
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: SDL_OPENGL     : 0
+10/12/14 08:33:58.986: [0xa0c5d1d4] SURFACE: calling SetVideoMode: 800x600 16 0x10000010
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: mallocd surface: 0x05c20000 800x600 pitch=3200
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: format = XBGR888 ptr = 0x05c20000, owned = 1, size = 1920000
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: direct copyup: 0 must_lock: 1
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: native: 800x600 (ptr: 0x05a4b000 pitch: 3200 bpp: 32)
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: bytes per pixel: 4 colorkey: 0 alpha: 255
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: RGBA shift:     8    16    24     0
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: RGBA loss :     0     0     0     8
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: RGBA mask : 0xff00 0xff0000 0xff000000   0x0
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: SDL_HWSURFACE  : 0
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: SDL_ANYFORMAT  : 0
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: SDL_HWACCEL    : 0
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: SDL_ASYNCBLIT  : 1
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: SDL_DOUBLEBUF  : 0
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: SDL_FULLSCREEN : 0
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: SDL_RESIZABLE  : 1
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: SDL_OPENGL     : 0
+10/12/14 08:33:59.043: [0xa0c5d1d4] SURFACE: got dimensions from SDL_GetVideoSurface: 800 600
+10/12/14 08:33:59.043: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+10/12/14 08:33:59.043: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB565 native=XBGR888)
+10/12/14 08:33:59.044: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:3200 (800x600 p:1600) o:0
+10/12/14 08:33:59.044: [0xfa0] DEVICE: Initialising EXT
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+10/12/14 08:33:59.044: [0xfa0] EXT: registering extension: OSXDataDirChange [0x48ecb37e]
+10/12/14 08:33:59.044: [0xfa0] DEVICE: Initialising CONFIG
+10/12/14 08:33:59.045: [0xfa0] DEVICE: Initialising TIMER
+10/12/14 08:33:59.045: [0xfa0] DEVICE: Initialising COMPRESSION
+10/12/14 08:33:59.045: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+10/12/14 08:33:59.045: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+10/12/14 08:33:59.045: [0xfa0] EXT: initializing extension: s3eWindow
+10/12/14 08:33:59.045: [0xfa0] EXT: initializing extension: s3eWindow 0x0010aad0
+10/12/14 08:33:59.045: [0xfa0] DEVICE: SetupPaths: NULL
+10/12/14 08:33:59.045: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via" ]
+10/12/14 08:33:59.045: [0xfa0] LOADER: setting [commandline]  via=/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
+10/12/14 08:33:59.046: [0xfa0] LOADER: parsing via file: /Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
+10/12/14 08:33:59.046: [0xfa0] FILE: open: /Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via 0X9 0X0
+10/12/14 08:33:59.046: [0xfa0] FILE: s3eFileOpen('/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via', 'r') succeeded, id=2238600 p=0x00222888
+10/12/14 08:33:59.046: [0xfa0] LOADER: reading 1817 bytes from via files
+10/12/14 08:33:59.046: [0xfa0] FILE: s3eFileClose h=0x00222888
+10/12/14 08:33:59.046: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via"  --dll="/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86"
+--data="/Users/ahau/Docume
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  via=/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  dll=/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  data=/Users/ahau/Documents/marmaladetest/FitMonster/resources
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  app-icf1=/Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  app-icf2=/Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  osx-ext-dll1=/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView.dylib
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  osx-ext-dll2=/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry.dylib
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  config-txt1=/Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  config-txt2=/Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt
+10/12/14 08:33:59.046: [0xfa0] LOADER: setting [commandline]  config-txt3=/Applications/Marmalade.app/Contents/quick/docs/app.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt4=/Applications/Marmalade.app/Contents/quick/docs/billing.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt5=/Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt6=/Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt7=/Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt8=/Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt9=/Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt10=/Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt11=/Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt12=/Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt13=/Applications/Marmalade.app/Contents/quick/docs/quick.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt14=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  config-txt15=/Applications/Marmalade.app/Contents/s3e/s3e.config.txt
+10/12/14 08:33:59.047: [0xfa0] LOADER: setting [commandline]  s3e-dir=/Applications/Marmalade.app/Contents/s3e
+10/12/14 08:33:59.047: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+10/12/14 08:33:59.047: [0xfa0] FILE: fs[00]: system[rom://] '/Users/ahau/Documents/marmaladetest/FitMonster/resources'
+10/12/14 08:33:59.047: [0xfa0] FILE: fs[03]: system[raw://] ''
+10/12/14 08:33:59.047: [0xfa0] FILE: listed 2 active filesystems
+10/12/14 08:33:59.047: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+10/12/14 08:33:59.047: [0xfa0] FILE: fs[00]: system[rom://] '/Users/ahau/Documents/marmaladetest/FitMonster/resources'
+10/12/14 08:33:59.047: [0xfa0] FILE: fs[01]: system[ram://] '/Users/ahau/Documents/marmaladetest/FitMonster/resources-ram'
+10/12/14 08:33:59.047: [0xfa0] FILE: fs[03]: system[raw://] ''
+10/12/14 08:33:59.047: [0xfa0] FILE: listed 3 active filesystems
+10/12/14 08:33:59.049: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+10/12/14 08:33:59.049: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+10/12/14 08:33:59.049: [0xfa0] LOADER: Using data directory /Users/ahau/Documents/marmaladetest/FitMonster/resources as ROM drive
+10/12/14 08:33:59.049: [0xfa0] LOADER: Using directory /Users/ahau/Documents/marmaladetest/FitMonster/resources-ram as RAM drive
+10/12/14 08:33:59.049: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt 0X9 0X0
+10/12/14 08:33:59.049: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwbilling/docs/billing.config.txt', 'r') succeeded, id=1000 p=0x00224250
+10/12/14 08:33:59.050: [0xfa0] FILE: s3eFileClose h=0x00224250
+10/12/14 08:33:59.050: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt 0X9 0X0
+10/12/14 08:33:59.050: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1001 p=0x0022466c
+10/12/14 08:33:59.050: [0xfa0] FILE: s3eFileClose h=0x0022466c
+10/12/14 08:33:59.050: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/app.config.txt 0X9 0X0
+10/12/14 08:33:59.050: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/app.config.txt', 'r') succeeded, id=1002 p=0x00224a88
+10/12/14 08:33:59.050: [0xfa0] FILE: s3eFileClose h=0x00224a88
+10/12/14 08:33:59.050: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/billing.config.txt 0X9 0X0
+10/12/14 08:33:59.050: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/billing.config.txt', 'r') succeeded, id=1003 p=0x00224ea4
+10/12/14 08:33:59.051: [0xfa0] FILE: s3eFileClose h=0x00224ea4
+10/12/14 08:33:59.051: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt 0X9 0X0
+10/12/14 08:33:59.051: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgeom.config.txt', 'r') succeeded, id=1004 p=0x002252c0
+10/12/14 08:33:59.051: [0xfa0] FILE: s3eFileClose h=0x002252c0
+10/12/14 08:33:59.051: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt 0X9 0X0
+10/12/14 08:33:59.051: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgl.config.txt', 'r') succeeded, id=1005 p=0x002256dc
+10/12/14 08:33:59.051: [0xfa0] FILE: s3eFileClose h=0x002256dc
+10/12/14 08:33:59.052: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt 0X9 0X0
+10/12/14 08:33:59.052: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgx.config.txt', 'r') succeeded, id=1006 p=0x00225af8
+10/12/14 08:33:59.053: [0xfa0] FILE: s3eFileClose h=0x00225af8
+10/12/14 08:33:59.053: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt 0X9 0X0
+10/12/14 08:33:59.053: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwgxfont.config.txt', 'r') succeeded, id=1007 p=0x00225f14
+10/12/14 08:33:59.053: [0xfa0] FILE: s3eFileClose h=0x00225f14
+10/12/14 08:33:59.053: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt 0X9 0X0
+10/12/14 08:33:59.053: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwhttp.config.txt', 'r') succeeded, id=1008 p=0x00226330
+10/12/14 08:33:59.054: [0xfa0] FILE: s3eFileClose h=0x00226330
+10/12/14 08:33:59.054: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt 0X9 0X0
+10/12/14 08:33:59.054: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwresmanager.config.txt', 'r') succeeded, id=1009 p=0x0022674c
+10/12/14 08:33:59.054: [0xfa0] FILE: s3eFileClose h=0x0022674c
+10/12/14 08:33:59.054: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt 0X9 0X0
+10/12/14 08:33:59.054: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwui.config.txt', 'r') succeeded, id=1010 p=0x00226b68
+10/12/14 08:33:59.054: [0xfa0] FILE: s3eFileClose h=0x00226b68
+10/12/14 08:33:59.054: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt 0X9 0X0
+10/12/14 08:33:59.054: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/iwutil.config.txt', 'r') succeeded, id=1011 p=0x00226f84
+10/12/14 08:33:59.054: [0xfa0] FILE: s3eFileClose h=0x00226f84
+10/12/14 08:33:59.054: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/quick/docs/quick.config.txt 0X9 0X0
+10/12/14 08:33:59.054: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/quick/docs/quick.config.txt', 'r') succeeded, id=1012 p=0x002273a0
+10/12/14 08:33:59.055: [0xfa0] FILE: s3eFileClose h=0x002273a0
+10/12/14 08:33:59.055: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
+10/12/14 08:33:59.055: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1013 p=0x002277bc
+10/12/14 08:33:59.060: [0xfa0] FILE: s3eFileClose h=0x002277bc
+10/12/14 08:33:59.060: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.config.txt 0X9 0X0
+10/12/14 08:33:59.060: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.config.txt', 'r') succeeded, id=1014 p=0x00227bd8
+10/12/14 08:33:59.064: [0xfa0] FILE: s3eFileClose h=0x00227bd8
+10/12/14 08:33:59.064: [0xfa0] FILE: open: /Applications/Marmalade.app/Contents/s3e/s3e.icf 0X9 0X0
+10/12/14 08:33:59.064: [0xfa0] FILE: s3eFileOpen('raw:///Applications/Marmalade.app/Contents/s3e/s3e.icf', 'rb') succeeded, id=1015 p=0x00227ff4
+10/12/14 08:33:59.064: [0xfa0] LOADER: Loading config from: /Applications/Marmalade.app/Contents/s3e/s3e.icf
+10/12/14 08:33:59.065: [0xfa0] FILE: s3eFileClose h=0x00227ff4
+10/12/14 08:33:59.066: [0xfa0] LOADER: Loading app-icf from command line specified location /Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf
+10/12/14 08:33:59.066: [0xfa0] FILE: open: /Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf 0X9 0X0
+10/12/14 08:33:59.066: [0xfa0] FILE: s3eFileOpen('raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf', 'rb') succeeded, id=1016 p=0x00228410
+10/12/14 08:33:59.066: [0xfa0] LOADER: Loading config from: raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf
+10/12/14 08:33:59.066: [0xfa0] FILE: s3eFileClose h=0x00228410
+10/12/14 08:33:59.066: [0xfa0] FILE: open: /Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf 0X9 0X0
+10/12/14 08:33:59.066: [0xfa0] FILE: s3eFileOpen('raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf', 'rb') succeeded, id=1017 p=0x0022882c
+10/12/14 08:33:59.066: [0xfa0] LOADER: Loading config from: raw:///Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf
+10/12/14 08:33:59.066: [0xfa0] FILE: s3eFileClose h=0x0022882c
+10/12/14 08:33:59.066: [0xfa0] LOADER: ParseCommandLineData [-via:"/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via" ]
+10/12/14 08:33:59.066: [0xfa0] LOADER: setting [commandline]  via=/Users/ahau/Documents/marmaladetest/FitMonster/build_temp/teststg1_release.via
 MarmaladeSDK v7.4.2 [409586] (S3E Loader v4.39.0)
 Copyright (C) 2001-2014 Marmalade Technologies Ltd.
 System Info:
  OS           : IPHONE (14)
- OS Version   : Darwin 13.4.0 (13.4)
+ OS Version   : Darwin 14.0.0 (14.0)
  Device ID    : iPhone 3GS (0x1)
  Device Class : WINDOWS_GENERIC (3000)
  Phone Number : 0044123456789
  Unique ID    : SIMULATOR_ID
  Device Name  : 
  Memory       : 1048576KiB
-10/12/14 06:15:43.249: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView_d.dylib' -> 0x7878cea0
-10/12/14 06:15:43.253: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry_d.dylib' -> 0x7878e9c0
-10/12/14 06:15:43.290: [0xfa0] GL: GLES desired version is 2
-10/12/14 06:15:43.290: [0xfa0] GL: DLL search path: /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2
-10/12/14 06:15:43.292: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib' -> 0x786cd730
-10/12/14 06:15:43.292: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib
-10/12/14 06:15:43.292: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib' -> 0x786cd860
-10/12/14 06:15:43.292: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib
-10/12/14 06:15:43.292: [0xfa0] GL: Using GLES 2
-10/12/14 06:15:43.327: [0xfa0] SPLASH: displaying debug splash-screen
-10/12/14 06:15:43.336: [0xfa0] LICENSE: SplashScreenRequired: Splash set in licenseText
-10/12/14 06:15:43.339: [0xfa0] LICENSE: LicenseType: ret true : output=Free
-10/12/14 06:15:43.339: [0xfa0] SPLASH: No splash screen specified
-10/12/14 06:15:43.366: [0xfa0] LICENSE: LicenseType: ret true : output=Free
-10/12/14 06:15:43.366: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002be040 id=3000
-10/12/14 06:15:43.366: [0xfa0] SOCKET: s3eInetLookup: 'www.google-analytics.com'
-10/12/14 06:15:43.367: [0xfa0] SOCKET: s3eInetLookup (synchronous): done DNS: '173.194.123.37:0'
-10/12/14 06:15:43.367: [0xfa0] SOCKET: s3eSocketConnect: 0x002be040 -> 173.194.123.37:80
-10/12/14 06:15:43.367: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:15:43.367: [0xfa0] SOCKET: Connect: FAILED (0: )
-10/12/14 06:15:43.368: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86' -> 0x786d0c00
-10/12/14 06:15:43.383: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:15:43.383: [0xfa0] SOCKET: NotifyConnect: 3000 0x002be040
-10/12/14 06:15:43.384: [0xfa0] SOCKET: s3eSocketClose: 0x002be040 open=1
-10/12/14 06:15:45.331: [0xfa0] VIDEO: s3eVideoPlay raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg
-10/12/14 06:15:45.332: [0xfa0] VIDEO: data in in JPG (EXIF) format
-10/12/14 06:15:45.332: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
-10/12/14 06:15:45.332: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg
-10/12/14 06:15:45.332: [0xfa0] JPEG: loading jpeg file: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg [37220]
-10/12/14 06:15:45.332: [0xfa0] JPEG: jpeg head was read: [320x320]
-10/12/14 06:15:45.335: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
-10/12/14 06:15:45.335: [0xfa0] JPEG: from [320x320] to [320x320]
-10/12/14 06:15:45.350: [0xfa0] VIDEO: s3eVideoPlay done: 0
-10/12/14 06:15:47.336: [0xfa0] VIDEO: s3eVideoPlay raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg
-10/12/14 06:15:47.336: [0xfa0] VIDEO: data in in JPG (EXIF) format
-10/12/14 06:15:47.336: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
-10/12/14 06:15:47.336: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg
-10/12/14 06:15:47.336: [0xfa0] JPEG: loading jpeg file: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg [30325]
-10/12/14 06:15:47.336: [0xfa0] JPEG: jpeg head was read: [320x320]
-10/12/14 06:15:47.340: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
-10/12/14 06:15:47.340: [0xfa0] JPEG: from [320x320] to [320x320]
-10/12/14 06:15:47.349: [0xfa0] VIDEO: s3eVideoPlay done: 0
-10/12/14 06:15:53.352: [0xfa0] GL: s3eEglInitialize: 0x7879b3d0 -> 1 1.4
-10/12/14 06:15:53.355: [0xfa0] GL: eglCreateContext: 0x7879e900
-10/12/14 06:15:53.355: [0xfa0] GL: s3eGLGetNativeWindow_platform: main win=0x79186d80
-10/12/14 06:15:53.362: [0xfa0] GL: s3eGLGetNativeWindow_platform: 0x786b9050
+10/12/14 08:33:59.106: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView_d.dylib' -> 0x78e6cbd0
+10/12/14 08:33:59.113: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry_d.dylib' -> 0x7a0caf80
+10/12/14 08:33:59.188: [0xfa0] GL: GLES desired version is 2
+10/12/14 08:33:59.188: [0xfa0] GL: DLL search path: /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2
+10/12/14 08:33:59.191: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib' -> 0x78e70c20
+10/12/14 08:33:59.191: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libGLESv2.dylib
+10/12/14 08:33:59.192: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib' -> 0x78e70e30
+10/12/14 08:33:59.192: [0xfa0] GL: Loaded GL DLL /Applications/Marmalade.app/Contents/s3e/loader/osx/dgles2/libEGL.dylib
+10/12/14 08:33:59.192: [0xfa0] GL: Using GLES 2
+10/12/14 08:33:59.264: [0xfa0] SPLASH: displaying debug splash-screen
+10/12/14 08:33:59.279: [0xfa0] LICENSE: SplashScreenRequired: Splash set in licenseText
+10/12/14 08:33:59.284: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+10/12/14 08:33:59.284: [0xfa0] SPLASH: No splash screen specified
+10/12/14 08:33:59.310: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+10/12/14 08:33:59.311: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002c9040 id=3000
+10/12/14 08:33:59.311: [0xfa0] SOCKET: s3eInetLookup: 'www.google-analytics.com'
+10/12/14 08:33:59.312: [0xfa0] SOCKET: s3eInetLookup (synchronous): done DNS: '74.125.228.7:0'
+10/12/14 08:33:59.312: [0xfa0] SOCKET: s3eSocketConnect: 0x002c9040 -> 74.125.228.7:80
+10/12/14 08:33:59.312: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+10/12/14 08:33:59.312: [0xfa0] SOCKET: Connect: FAILED (0: )
+10/12/14 08:33:59.317: [0xfa0] LIBRARY: s3eLibraryLoad '/Applications/Marmalade.app/Contents/quick/target/osx/quick_prebuilt.s86' -> 0x78e7f880
+10/12/14 08:34:00.027: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+10/12/14 08:34:00.027: [0xfa0] SOCKET: NotifyConnect: 3000 0x002c9040
+10/12/14 08:34:00.028: [0xfa0] SOCKET: s3eSocketClose: 0x002c9040 open=1
+10/12/14 08:34:01.275: [0xfa0] VIDEO: s3eVideoPlay raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg
+10/12/14 08:34:01.276: [0xfa0] VIDEO: data in in JPG (EXIF) format
+10/12/14 08:34:01.276: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+10/12/14 08:34:01.276: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg
+10/12/14 08:34:01.276: [0xfa0] JPEG: loading jpeg file: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/mwm-splash-320.jpg [37220]
+10/12/14 08:34:01.276: [0xfa0] JPEG: jpeg head was read: [320x320]
+10/12/14 08:34:01.280: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
+10/12/14 08:34:01.280: [0xfa0] JPEG: from [320x320] to [320x320]
+10/12/14 08:34:01.296: [0xfa0] VIDEO: s3eVideoPlay done: 0
+10/12/14 08:34:03.274: [0xfa0] VIDEO: s3eVideoPlay raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg
+10/12/14 08:34:03.274: [0xfa0] VIDEO: data in in JPG (EXIF) format
+10/12/14 08:34:03.274: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+10/12/14 08:34:03.274: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg
+10/12/14 08:34:03.274: [0xfa0] JPEG: loading jpeg file: raw:///Applications/Marmalade.app/Contents/s3e/deploy/resources/ads/ad.320.jpg [30325]
+10/12/14 08:34:03.274: [0xfa0] JPEG: jpeg head was read: [320x320]
+10/12/14 08:34:03.277: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
+10/12/14 08:34:03.277: [0xfa0] JPEG: from [320x320] to [320x320]
+10/12/14 08:34:03.287: [0xfa0] VIDEO: s3eVideoPlay done: 0
+10/12/14 08:34:09.339: [0xfa0] GL: s3eEglInitialize: 0x7a0982d0 -> 1 1.4
+10/12/14 08:34:09.354: [0xfa0] GL: eglCreateContext: 0x7a0798d0
+10/12/14 08:34:09.354: [0xfa0] GL: s3eGLGetNativeWindow_platform: main win=0x78f66060
+10/12/14 08:34:09.375: [0xfa0] GL: s3eGLGetNativeWindow_platform: 0x7a163310
 
 
 QUICKCPP LOG: Marmalade Quick 1.1
@@ -257,22 +257,32 @@ QUICKCPP WARNING: Failed to load config lua file
 QUICKCPP LOG: Loading Quick engine...
 QUICKCPP LOG: Loading app...
 Creating default font
-10/12/14 06:15:53.561: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002be15c id=3001
-10/12/14 06:15:53.561: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:15:53.561: [0xfa0] SOCKET: s3eSocketConnect: 0x002be15c -> 54.148.44.95:5000
+10/12/14 08:34:09.658: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002c915c id=3001
+10/12/14 08:34:09.658: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+10/12/14 08:34:09.658: [0xfa0] SOCKET: s3eSocketConnect: 0x002c915c -> 54.148.44.95:5000
 ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:15:53.561: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:15:53.561: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:15:53.683: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:15:53.683: [0xfa0] SOCKET: NotifyConnect: 3001 0x002be15c
-10/12/14 06:15:54.281: [0xfa0] SOCKET: s3eSocketClose: 0x002be15c open=1
+10/12/14 08:34:09.659: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+10/12/14 08:34:09.659: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+10/12/14 08:34:09.749: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+10/12/14 08:34:09.749: [0xfa0] SOCKET: NotifyConnect: 3001 0x002c915c
+10/12/14 08:34:11.274: [0xfa0] SOCKET: s3eSocketClose: 0x002c915c open=1
 This is my app alan!
+setup leaderboardScene
+leaderboardScene:enterPostTransition
+10/12/14 08:34:13.371: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002c9278 id=3002
+10/12/14 08:34:13.371: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+10/12/14 08:34:13.371: [0xfa0] SOCKET: s3eSocketConnect: 0x002c9278 -> 54.148.44.95:5000
+ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
+10/12/14 08:34:13.371: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+10/12/14 08:34:13.371: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+10/12/14 08:34:13.457: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+10/12/14 08:34:13.458: [0xfa0] SOCKET: NotifyConnect: 3002 0x002c9278
+10/12/14 08:34:14.007: [0xfa0] SOCKET: s3eSocketClose: 0x002c9278 open=1
 setup arenaScene
 scene1:enterPreTransition
-scene1:enterPreTransition
 scene1:enterPostTransition
-10/12/14 06:16:07.465: [0xa16941a8] LOCATION: s3eLocationStart done
-10/12/14 06:16:07.466: [0xa16941a8] LOCATION: s3eLocationStop
+10/12/14 08:34:20.783: [0xa0c5d1d4] LOCATION: s3eLocationStart done
+10/12/14 08:34:20.784: [0xa0c5d1d4] LOCATION: s3eLocationStop
 lon:-0.19108399748802lat:51.511791229248
 {
   lon: -0.19108399748802
@@ -289,15 +299,15 @@ lon:-0.19108399748802lat:51.511791229248
   UID: 'alanhau'
 }
 {"lon":-0.19108399748802,"lat":51.511791229248,"monster":{"nextlvl":244,"isAlive":1,"name":"poopiePants","currentlvl":10,"age":0,"imgSrc":"lvl3.png"},"UID":"alanhau"}
-10/12/14 06:16:07.467: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002be278 id=3002
-10/12/14 06:16:07.467: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:07.467: [0xfa0] SOCKET: s3eSocketConnect: 0x002be278 -> 54.148.44.95:5000
+10/12/14 08:34:20.785: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002c9394 id=3003
+10/12/14 08:34:20.785: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+10/12/14 08:34:20.785: [0xfa0] SOCKET: s3eSocketConnect: 0x002c9394 -> 54.148.44.95:5000
 ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:07.467: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:07.467: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:07.573: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:07.573: [0xfa0] SOCKET: NotifyConnect: 3002 0x002be278
-10/12/14 06:16:07.783: [0xfa0] SOCKET: s3eSocketClose: 0x002be278 open=1
+10/12/14 08:34:20.785: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+10/12/14 08:34:20.785: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+10/12/14 08:34:20.883: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+10/12/14 08:34:20.883: [0xfa0] SOCKET: NotifyConnect: 3003 0x002c9394
+10/12/14 08:34:21.471: [0xfa0] SOCKET: s3eSocketClose: 0x002c9394 open=1
 X:48Y:324
 X:128Y:324
 X:208Y:324
@@ -305,15 +315,54 @@ X:288Y:324
 X:48Y:264
 X:128Y:264
 X:208Y:264
-1
+scene1:exitPreTransition
+scene1:exitPostTransition
+setup arenaScene
+scene1:enterPreTransition
+scene1:enterPostTransition
+10/12/14 09:07:18.119: [0xa0c5d1d4] LOCATION: s3eLocationStart done
+10/12/14 09:07:18.123: [0xa0c5d1d4] LOCATION: s3eLocationStop
+lon:-0.19108399748802lat:51.511791229248
+{
+  lon: -0.19108399748802
+  lat: 51.511791229248
+  monster:
+  {
+    nextlvl: 244
+    isAlive: 1
+    name: 'poopiePants'
+    currentlvl: 10
+    age: 0
+    imgSrc: 'lvl3.png'
+  }
+  UID: 'alanhau'
+}
+{"lon":-0.19108399748802,"lat":51.511791229248,"monster":{"nextlvl":244,"isAlive":1,"name":"poopiePants","currentlvl":10,"age":0,"imgSrc":"lvl3.png"},"UID":"alanhau"}
+10/12/14 09:07:18.123: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002c94b0 id=3004
+10/12/14 09:07:18.123: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
+10/12/14 09:07:18.123: [0xfa0] SOCKET: s3eSocketConnect: 0x002c94b0 -> 54.148.44.95:5000
+ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
+10/12/14 09:07:18.124: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
+10/12/14 09:07:18.124: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
+10/12/14 09:07:18.215: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
+10/12/14 09:07:18.215: [0xfa0] SOCKET: NotifyConnect: 3004 0x002c94b0
+10/12/14 09:07:18.775: [0xfa0] SOCKET: s3eSocketClose: 0x002c94b0 open=1
+X:48Y:324
+X:128Y:324
+X:208Y:324
+X:288Y:324
+X:48Y:264
+X:128Y:264
+X:208Y:264
+4
 setup battlegroundScene
 scene1:exitPreTransition
-1
+4
 scene1:exitPreTransition
 scene1:exitPostTransition
 Battlegroundscene:enterPostTransition
-chosen monster: 1{"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Shoe","currentlvl":2,"age":0,"imgSrc":"lvl3.png"}}
-chosenNeighbor: {"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Shoe","currentlvl":2,"age":0,"imgSrc":"lvl3.png"}}
+chosen monster: 4{"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Lambtron","currentlvl":2,"age":0,"imgSrc":"lvl2.png"}}
+chosenNeighbor: {"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Lambtron","currentlvl":2,"age":0,"imgSrc":"lvl2.png"}}
 dw: 320 dh: 480
 oppornen coord x161.5y360.5
 dw: 320 dh: 480
@@ -480,237 +529,1515 @@ dw: 320 dh: 480
 oppornen coord x178y398
 dw: 320 dh: 480
 oppornen coord x178.5y395.5
+dw: 320 dh: 480
+oppornen coord x175y394
+dw: 320 dh: 480
+oppornen coord x172.5y394.5
+dw: 320 dh: 480
+oppornen coord x173y392
+dw: 320 dh: 480
+oppornen coord x174.5y395.5
+dw: 320 dh: 480
+oppornen coord x175y393
+dw: 320 dh: 480
+oppornen coord x177.5y395.5
+dw: 320 dh: 480
+oppornen coord x176y396
+dw: 320 dh: 480
+oppornen coord x172.5y394.5
+dw: 320 dh: 480
+oppornen coord x171y391
+dw: 320 dh: 480
+oppornen coord x172.5y394.5
+dw: 320 dh: 480
+oppornen coord x176y393
+dw: 320 dh: 480
+oppornen coord x175.5y389.5
+dw: 320 dh: 480
+oppornen coord x174y392
+dw: 320 dh: 480
+oppornen coord x176.5y389.5
+dw: 320 dh: 480
+oppornen coord x177y392
+dw: 320 dh: 480
+oppornen coord x174.5y395.5
+dw: 320 dh: 480
+oppornen coord x173y396
+dw: 320 dh: 480
+oppornen coord x172.5y398.5
+dw: 320 dh: 480
+oppornen coord x169y402
+dw: 320 dh: 480
+oppornen coord x165.5y398.5
+dw: 320 dh: 480
+oppornen coord x167y397
+dw: 320 dh: 480
+oppornen coord x168.5y400.5
+dw: 320 dh: 480
+oppornen coord x167y398
+dw: 320 dh: 480
+oppornen coord x170.5y399.5
+dw: 320 dh: 480
+oppornen coord x168y400
+dw: 320 dh: 480
+oppornen coord x165.5y396.5
+dw: 320 dh: 480
+oppornen coord x166y400
+dw: 320 dh: 480
+oppornen coord x165.5y397.5
+dw: 320 dh: 480
+oppornen coord x165y398
+dw: 320 dh: 480
+oppornen coord x165.5y401.5
+dw: 320 dh: 480
+oppornen coord x165y398
+dw: 320 dh: 480
+oppornen coord x163.5y398.5
+dw: 320 dh: 480
+oppornen coord x160y395
+dw: 320 dh: 480
+oppornen coord x158.5y391.5
+dw: 320 dh: 480
+oppornen coord x156y392
+dw: 320 dh: 480
+oppornen coord x154.5y395.5
+dw: 320 dh: 480
+oppornen coord x153y393
+dw: 320 dh: 480
+oppornen coord x153.5y391.5
+dw: 320 dh: 480
+oppornen coord x157y388
+dw: 320 dh: 480
+oppornen coord x156.5y386.5
+dw: 320 dh: 480
+oppornen coord x157y385
+dw: 320 dh: 480
+oppornen coord x156.5y385.5
+dw: 320 dh: 480
+oppornen coord x154y389
+dw: 320 dh: 480
+oppornen coord x154.5y385.5
+dw: 320 dh: 480
+oppornen coord x155y386
+dw: 320 dh: 480
+oppornen coord x151.5y383.5
+dw: 320 dh: 480
+oppornen coord x155y382
+dw: 320 dh: 480
+oppornen coord x154.5y383.5
+dw: 320 dh: 480
+oppornen coord x158y383
+dw: 320 dh: 480
+oppornen coord x156.5y382.5
+dw: 320 dh: 480
+oppornen coord x156y384
+dw: 320 dh: 480
+oppornen coord x154.5y381.5
+dw: 320 dh: 480
+oppornen coord x155y382
+dw: 320 dh: 480
+oppornen coord x155.5y382.5
+dw: 320 dh: 480
+oppornen coord x156y386
+dw: 320 dh: 480
+oppornen coord x153.5y386.5
+dw: 320 dh: 480
+oppornen coord x150y386
+dw: 320 dh: 480
+oppornen coord x147.5y383.5
+dw: 320 dh: 480
+oppornen coord x144y387
+dw: 320 dh: 480
+oppornen coord x144.5y390.5
+dw: 320 dh: 480
+oppornen coord x146y391
+dw: 320 dh: 480
+oppornen coord x148.5y392.5
+dw: 320 dh: 480
+oppornen coord x152y389
+dw: 320 dh: 480
+oppornen coord x150.5y387.5
+dw: 320 dh: 480
+oppornen coord x150y384
+dw: 320 dh: 480
+oppornen coord x151.5y385.5
+dw: 320 dh: 480
+oppornen coord x150y383
+dw: 320 dh: 480
+oppornen coord x151.5y385.5
+dw: 320 dh: 480
+oppornen coord x150y388
+dw: 320 dh: 480
+oppornen coord x147.5y386.5
+dw: 320 dh: 480
+oppornen coord x147y389
+dw: 320 dh: 480
+oppornen coord x147.5y385.5
+dw: 320 dh: 480
+oppornen coord x148y387
+dw: 320 dh: 480
+oppornen coord x148.5y388.5
+dw: 320 dh: 480
+oppornen coord x152y391
+dw: 320 dh: 480
+oppornen coord x153.5y391.5
+dw: 320 dh: 480
+oppornen coord x154y389
+dw: 320 dh: 480
+oppornen coord x155.5y385.5
+dw: 320 dh: 480
+oppornen coord x155y387
+dw: 320 dh: 480
+oppornen coord x157.5y383.5
+dw: 320 dh: 480
+oppornen coord x155y386
+dw: 320 dh: 480
+oppornen coord x152.5y383.5
+dw: 320 dh: 480
+oppornen coord x155y387
+dw: 320 dh: 480
+oppornen coord x151.5y390.5
+dw: 320 dh: 480
+oppornen coord x148y389
+dw: 320 dh: 480
+oppornen coord x148.5y388.5
+dw: 320 dh: 480
+oppornen coord x148y389
+dw: 320 dh: 480
+oppornen coord x149.5y390.5
+dw: 320 dh: 480
+oppornen coord x147y392
+dw: 320 dh: 480
+oppornen coord x144.5y388.5
+dw: 320 dh: 480
+oppornen coord x148y385
+dw: 320 dh: 480
+oppornen coord x151.5y385.5
+dw: 320 dh: 480
+oppornen coord x154y384
+dw: 320 dh: 480
+oppornen coord x156.5y385.5
+dw: 320 dh: 480
+oppornen coord x157y387
+dw: 320 dh: 480
+oppornen coord x155.5y384.5
+dw: 320 dh: 480
+oppornen coord x153y384
+dw: 320 dh: 480
+oppornen coord x149.5y385.5
+dw: 320 dh: 480
+oppornen coord x150y389
+dw: 320 dh: 480
+oppornen coord x146.5y386.5
+dw: 320 dh: 480
+oppornen coord x150y387
+dw: 320 dh: 480
+oppornen coord x151.5y389.5
+dw: 320 dh: 480
+oppornen coord x148y392
+dw: 320 dh: 480
+oppornen coord x145.5y392.5
+dw: 320 dh: 480
+oppornen coord x142y390
+dw: 320 dh: 480
+oppornen coord x142.5y391.5
+dw: 320 dh: 480
+oppornen coord x141y392
+dw: 320 dh: 480
+oppornen coord x141.5y394.5
+dw: 320 dh: 480
+oppornen coord x144y393
+dw: 320 dh: 480
+oppornen coord x141.5y390.5
+dw: 320 dh: 480
+oppornen coord x144y388
+dw: 320 dh: 480
+oppornen coord x145.5y387.5
+dw: 320 dh: 480
+oppornen coord x145y386
+dw: 320 dh: 480
+oppornen coord x147.5y382.5
+dw: 320 dh: 480
+oppornen coord x151y384
+dw: 320 dh: 480
+oppornen coord x154.5y381.5
+dw: 320 dh: 480
+oppornen coord x158y382
+dw: 320 dh: 480
+oppornen coord x154.5y380.5
+dw: 320 dh: 480
+oppornen coord x155y380
+dw: 320 dh: 480
+oppornen coord x154.5y381.5
+dw: 320 dh: 480
+oppornen coord x154y383
+dw: 320 dh: 480
+oppornen coord x151.5y381.5
+dw: 320 dh: 480
+oppornen coord x152y382
+dw: 320 dh: 480
+oppornen coord x154.5y378.5
+dw: 320 dh: 480
+oppornen coord x158y382
+dw: 320 dh: 480
+oppornen coord x157.5y385.5
+dw: 320 dh: 480
+oppornen coord x161y387
+dw: 320 dh: 480
+oppornen coord x160.5y383.5
+dw: 320 dh: 480
+oppornen coord x162y385
+dw: 320 dh: 480
+oppornen coord x160.5y382.5
+dw: 320 dh: 480
+oppornen coord x157y379
+dw: 320 dh: 480
+oppornen coord x157.5y375.5
+dw: 320 dh: 480
+oppornen coord x158y374
+dw: 320 dh: 480
+oppornen coord x161.5y376.5
+dw: 320 dh: 480
+oppornen coord x161y380
+dw: 320 dh: 480
+oppornen coord x163.5y383.5
+dw: 320 dh: 480
+oppornen coord x161y385
+dw: 320 dh: 480
+oppornen coord x161.5y387.5
+dw: 320 dh: 480
+oppornen coord x164y389
+dw: 320 dh: 480
+oppornen coord x166.5y385.5
+dw: 320 dh: 480
+oppornen coord x166y387
+dw: 320 dh: 480
+oppornen coord x165.5y385.5
+dw: 320 dh: 480
+oppornen coord x165y385
+dw: 320 dh: 480
+oppornen coord x164.5y384.5
+dw: 320 dh: 480
+oppornen coord x162y387
+dw: 320 dh: 480
+oppornen coord x160.5y387.5
+dw: 320 dh: 480
+oppornen coord x157y389
+dw: 320 dh: 480
+oppornen coord x154.5y390.5
+dw: 320 dh: 480
+oppornen coord x155y388
+dw: 320 dh: 480
+oppornen coord x153.5y390.5
+dw: 320 dh: 480
+oppornen coord x150y388
+dw: 320 dh: 480
+oppornen coord x149.5y388.5
+dw: 320 dh: 480
+oppornen coord x147y389
+dw: 320 dh: 480
+oppornen coord x149.5y387.5
+dw: 320 dh: 480
+oppornen coord x151y390
+dw: 320 dh: 480
+oppornen coord x151.5y388.5
+dw: 320 dh: 480
+oppornen coord x155y392
+dw: 320 dh: 480
+oppornen coord x151.5y388.5
+dw: 320 dh: 480
+oppornen coord x153y388
+dw: 320 dh: 480
+oppornen coord x155.5y391.5
+dw: 320 dh: 480
+oppornen coord x156y388
+dw: 320 dh: 480
+oppornen coord x154.5y389.5
+dw: 320 dh: 480
+oppornen coord x153y387
+dw: 320 dh: 480
+oppornen coord x152.5y390.5
+dw: 320 dh: 480
+oppornen coord x152y388
+dw: 320 dh: 480
+oppornen coord x155.5y390.5
+dw: 320 dh: 480
+oppornen coord x155y394
+dw: 320 dh: 480
+oppornen coord x155.5y392.5
+dw: 320 dh: 480
+oppornen coord x156y391
+dw: 320 dh: 480
+oppornen coord x155.5y392.5
+dw: 320 dh: 480
+oppornen coord x153y395
+dw: 320 dh: 480
+oppornen coord x153.5y395.5
+dw: 320 dh: 480
+oppornen coord x153y393
+dw: 320 dh: 480
+oppornen coord x149.5y396.5
+dw: 320 dh: 480
+oppornen coord x149y394
+dw: 320 dh: 480
+oppornen coord x150.5y395.5
+dw: 320 dh: 480
+oppornen coord x150y396
+dw: 320 dh: 480
+oppornen coord x146.5y396.5
+dw: 320 dh: 480
+oppornen coord x144y393
+dw: 320 dh: 480
+oppornen coord x146.5y395.5
+dw: 320 dh: 480
+oppornen coord x150y396
+dw: 320 dh: 480
+oppornen coord x151.5y397.5
+dw: 320 dh: 480
+oppornen coord x150y399
+dw: 320 dh: 480
+oppornen coord x151.5y395.5
+dw: 320 dh: 480
+oppornen coord x151y393
+dw: 320 dh: 480
+oppornen coord x153.5y396.5
+dw: 320 dh: 480
+oppornen coord x156y396
+dw: 320 dh: 480
+oppornen coord x155.5y399.5
+dw: 320 dh: 480
+oppornen coord x159y400
+dw: 320 dh: 480
+oppornen coord x160.5y401.5
+dw: 320 dh: 480
+oppornen coord x158y398
+dw: 320 dh: 480
+oppornen coord x157.5y397.5
+dw: 320 dh: 480
+oppornen coord x161y401
+dw: 320 dh: 480
+oppornen coord x158.5y397.5
+dw: 320 dh: 480
+oppornen coord x161y396
+dw: 320 dh: 480
+oppornen coord x159.5y399.5
+dw: 320 dh: 480
+oppornen coord x163y401
+dw: 320 dh: 480
+oppornen coord x163.5y401.5
+dw: 320 dh: 480
+oppornen coord x163y403
+dw: 320 dh: 480
+oppornen coord x163.5y404.5
+dw: 320 dh: 480
+oppornen coord x163y404
+dw: 320 dh: 480
+oppornen coord x165.5y402.5
+dw: 320 dh: 480
+oppornen coord x165y400
+dw: 320 dh: 480
+oppornen coord x168.5y403.5
+dw: 320 dh: 480
+oppornen coord x172y404
+dw: 320 dh: 480
+oppornen coord x175.5y402.5
+dw: 320 dh: 480
+oppornen coord x172y399
+dw: 320 dh: 480
+oppornen coord x168.5y401.5
+dw: 320 dh: 480
+oppornen coord x165y405
+dw: 320 dh: 480
+oppornen coord x165.5y402.5
+dw: 320 dh: 480
+oppornen coord x169y404
+dw: 320 dh: 480
+oppornen coord x167.5y400.5
+dw: 320 dh: 480
+oppornen coord x171y403
+dw: 320 dh: 480
+oppornen coord x169.5y401.5
+dw: 320 dh: 480
+oppornen coord x170y402
+dw: 320 dh: 480
+oppornen coord x168.5y404.5
+dw: 320 dh: 480
+oppornen coord x172y404
+dw: 320 dh: 480
+oppornen coord x172.5y400.5
+dw: 320 dh: 480
+oppornen coord x169y401
+dw: 320 dh: 480
+oppornen coord x166.5y403.5
+dw: 320 dh: 480
+oppornen coord x166y403
+dw: 320 dh: 480
+oppornen coord x169.5y400.5
+dw: 320 dh: 480
+oppornen coord x169y401
+dw: 320 dh: 480
+oppornen coord x165.5y398.5
+dw: 320 dh: 480
+oppornen coord x162y399
+dw: 320 dh: 480
+oppornen coord x161.5y399.5
+dw: 320 dh: 480
+oppornen coord x160y401
+dw: 320 dh: 480
+oppornen coord x157.5y400.5
+dw: 320 dh: 480
+oppornen coord x156y399
+dw: 320 dh: 480
+oppornen coord x159.5y401.5
+dw: 320 dh: 480
+oppornen coord x160y401
+dw: 320 dh: 480
+oppornen coord x160.5y399.5
+dw: 320 dh: 480
+oppornen coord x159y398
+dw: 320 dh: 480
+oppornen coord x162.5y394.5
+dw: 320 dh: 480
+oppornen coord x164y397
+dw: 320 dh: 480
+oppornen coord x163.5y395.5
+dw: 320 dh: 480
+oppornen coord x167y396
+dw: 320 dh: 480
+oppornen coord x164.5y398.5
+dw: 320 dh: 480
+oppornen coord x163y402
+dw: 320 dh: 480
+oppornen coord x160.5y399.5
+dw: 320 dh: 480
+oppornen coord x158y398
+dw: 320 dh: 480
+oppornen coord x158.5y394.5
+dw: 320 dh: 480
+oppornen coord x161y397
+dw: 320 dh: 480
+oppornen coord x157.5y399.5
+dw: 320 dh: 480
+oppornen coord x155y398
+dw: 320 dh: 480
+oppornen coord x155.5y397.5
+dw: 320 dh: 480
+oppornen coord x155y394
+dw: 320 dh: 480
+oppornen coord x152.5y391.5
+dw: 320 dh: 480
+oppornen coord x150y392
+dw: 320 dh: 480
+oppornen coord x151.5y388.5
+dw: 320 dh: 480
+oppornen coord x150y387
+dw: 320 dh: 480
+oppornen coord x150.5y389.5
+dw: 320 dh: 480
+oppornen coord x150y390
+dw: 320 dh: 480
+oppornen coord x147.5y390.5
+dw: 320 dh: 480
+oppornen coord x147y394
+dw: 320 dh: 480
+oppornen coord x148.5y397.5
+dw: 320 dh: 480
+oppornen coord x147y394
+dw: 320 dh: 480
+oppornen coord x148.5y392.5
+dw: 320 dh: 480
+oppornen coord x149y392
+dw: 320 dh: 480
+oppornen coord x150.5y388.5
+dw: 320 dh: 480
+oppornen coord x147y388
+dw: 320 dh: 480
+oppornen coord x145.5y389.5
+dw: 320 dh: 480
+oppornen coord x149y393
+dw: 320 dh: 480
+oppornen coord x149.5y394.5
+dw: 320 dh: 480
+oppornen coord x151y395
+dw: 320 dh: 480
+oppornen coord x154.5y391.5
+dw: 320 dh: 480
+oppornen coord x156y389
+dw: 320 dh: 480
+oppornen coord x158.5y389.5
+dw: 320 dh: 480
+oppornen coord x161y387
+dw: 320 dh: 480
+oppornen coord x163.5y388.5
+dw: 320 dh: 480
+oppornen coord x163y386
+dw: 320 dh: 480
+oppornen coord x166.5y385.5
+dw: 320 dh: 480
+oppornen coord x168y382
+dw: 320 dh: 480
+oppornen coord x171.5y383.5
+dw: 320 dh: 480
+oppornen coord x171y385
+dw: 320 dh: 480
+oppornen coord x171.5y387.5
+dw: 320 dh: 480
+oppornen coord x169y388
+dw: 320 dh: 480
+oppornen coord x169.5y386.5
+dw: 320 dh: 480
+oppornen coord x172y384
+dw: 320 dh: 480
+oppornen coord x172.5y387.5
+dw: 320 dh: 480
+oppornen coord x173y389
+dw: 320 dh: 480
+oppornen coord x174.5y389.5
+dw: 320 dh: 480
+oppornen coord x176y392
+dw: 320 dh: 480
+oppornen coord x178.5y392.5
+dw: 320 dh: 480
+oppornen coord x179y395
+dw: 320 dh: 480
+oppornen coord x180.5y394.5
+dw: 320 dh: 480
+oppornen coord x180y391
+dw: 320 dh: 480
+oppornen coord x183.5y389.5
+dw: 320 dh: 480
+oppornen coord x187y390
+dw: 320 dh: 480
+oppornen coord x183.5y389.5
+dw: 320 dh: 480
+oppornen coord x186y391
+dw: 320 dh: 480
+oppornen coord x183.5y393.5
+dw: 320 dh: 480
+oppornen coord x181y395
+dw: 320 dh: 480
+oppornen coord x182.5y397.5
+dw: 320 dh: 480
+oppornen coord x180y398
+dw: 320 dh: 480
+oppornen coord x182.5y397.5
+dw: 320 dh: 480
+oppornen coord x182y395
+dw: 320 dh: 480
+oppornen coord x179.5y392.5
+dw: 320 dh: 480
+oppornen coord x180y392
+dw: 320 dh: 480
+oppornen coord x181.5y390.5
+dw: 320 dh: 480
+oppornen coord x179y394
+dw: 320 dh: 480
+oppornen coord x176.5y395.5
+dw: 320 dh: 480
+oppornen coord x176y396
+dw: 320 dh: 480
+oppornen coord x172.5y396.5
+dw: 320 dh: 480
+oppornen coord x171y395
+dw: 320 dh: 480
+oppornen coord x172.5y396.5
+dw: 320 dh: 480
+oppornen coord x172y394
+dw: 320 dh: 480
+oppornen coord x168.5y394.5
+dw: 320 dh: 480
+oppornen coord x165y398
+dw: 320 dh: 480
+oppornen coord x168.5y396.5
+dw: 320 dh: 480
+oppornen coord x171y397
+dw: 320 dh: 480
+oppornen coord x171.5y395.5
+dw: 320 dh: 480
+oppornen coord x168y395
+dw: 320 dh: 480
+oppornen coord x168.5y392.5
+dw: 320 dh: 480
+oppornen coord x172y394
+dw: 320 dh: 480
+oppornen coord x172.5y396.5
+dw: 320 dh: 480
+oppornen coord x174y398
+dw: 320 dh: 480
+oppornen coord x174.5y396.5
+dw: 320 dh: 480
+oppornen coord x173y396
+dw: 320 dh: 480
+oppornen coord x176.5y393.5
+dw: 320 dh: 480
+oppornen coord x174y394
+dw: 320 dh: 480
+oppornen coord x174.5y396.5
+dw: 320 dh: 480
+oppornen coord x175y399
+dw: 320 dh: 480
+oppornen coord x176.5y402.5
+dw: 320 dh: 480
+oppornen coord x178y402
+dw: 320 dh: 480
+oppornen coord x175.5y398.5
+dw: 320 dh: 480
+oppornen coord x172y397
+dw: 320 dh: 480
+oppornen coord x174.5y395.5
+dw: 320 dh: 480
+oppornen coord x176y396
+dw: 320 dh: 480
+oppornen coord x179.5y394.5
+dw: 320 dh: 480
+oppornen coord x181y392
+dw: 320 dh: 480
+oppornen coord x177.5y394.5
+dw: 320 dh: 480
+oppornen coord x177y392
+dw: 320 dh: 480
+oppornen coord x180.5y390.5
+dw: 320 dh: 480
+oppornen coord x180y388
+dw: 320 dh: 480
+oppornen coord x181.5y388.5
+dw: 320 dh: 480
+oppornen coord x178y386
+dw: 320 dh: 480
+oppornen coord x181.5y388.5
+dw: 320 dh: 480
+oppornen coord x179y392
+dw: 320 dh: 480
+oppornen coord x181.5y394.5
+dw: 320 dh: 480
+oppornen coord x180y392
+dw: 320 dh: 480
+oppornen coord x181.5y389.5
+dw: 320 dh: 480
+oppornen coord x179y389
+dw: 320 dh: 480
+oppornen coord x178.5y388.5
+dw: 320 dh: 480
+oppornen coord x177y388
+dw: 320 dh: 480
+oppornen coord x180.5y385.5
+dw: 320 dh: 480
+oppornen coord x181y385
+dw: 320 dh: 480
+oppornen coord x184.5y384.5
+dw: 320 dh: 480
+oppornen coord x183y383
+dw: 320 dh: 480
+oppornen coord x180.5y383.5
+dw: 320 dh: 480
+oppornen coord x184y387
+dw: 320 dh: 480
+oppornen coord x185.5y384.5
+dw: 320 dh: 480
+oppornen coord x184y385
+dw: 320 dh: 480
+oppornen coord x183.5y386.5
+dw: 320 dh: 480
+oppornen coord x187y389
+dw: 320 dh: 480
+oppornen coord x190.5y386.5
+dw: 320 dh: 480
+oppornen coord x190y385
+dw: 320 dh: 480
+oppornen coord x187.5y383.5
+dw: 320 dh: 480
+oppornen coord x184y384
+dw: 320 dh: 480
+oppornen coord x183.5y387.5
+dw: 320 dh: 480
+oppornen coord x187y387
+dw: 320 dh: 480
+oppornen coord x188.5y389.5
+dw: 320 dh: 480
+oppornen coord x190y391
+dw: 320 dh: 480
+oppornen coord x187.5y394.5
+dw: 320 dh: 480
+oppornen coord x191y395
+dw: 320 dh: 480
+oppornen coord x192.5y396.5
+dw: 320 dh: 480
+oppornen coord x189y398
+dw: 320 dh: 480
+oppornen coord x187.5y400.5
+dw: 320 dh: 480
+oppornen coord x191y402
+dw: 320 dh: 480
+oppornen coord x190.5y398.5
+dw: 320 dh: 480
+oppornen coord x191y401
+dw: 320 dh: 480
+oppornen coord x189.5y403.5
+dw: 320 dh: 480
+oppornen coord x193y402
+dw: 320 dh: 480
+oppornen coord x196.5y399.5
+dw: 320 dh: 480
+oppornen coord x198y402
+dw: 320 dh: 480
+oppornen coord x196.5y405.5
+dw: 320 dh: 480
+oppornen coord x193y409
+dw: 320 dh: 480
+oppornen coord x190.5y412.5
+dw: 320 dh: 480
+oppornen coord x190y410
+dw: 320 dh: 480
+oppornen coord x187.5y410.5
+dw: 320 dh: 480
+oppornen coord x184y414
+dw: 320 dh: 480
+oppornen coord x182.5y414.5
+dw: 320 dh: 480
+oppornen coord x181y414
+dw: 320 dh: 480
+oppornen coord x177.5y416.5
+dw: 320 dh: 480
+oppornen coord x178y417
+dw: 320 dh: 480
+oppornen coord x181.5y418.5
+dw: 320 dh: 480
+oppornen coord x180y417
+dw: 320 dh: 480
+oppornen coord x176.5y420.5
+dw: 320 dh: 480
+oppornen coord x179y422
+dw: 320 dh: 480
+oppornen coord x178.5y419.5
+dw: 320 dh: 480
+oppornen coord x181y420
+dw: 320 dh: 480
+oppornen coord x181.5y421.5
+dw: 320 dh: 480
+oppornen coord x181y421
+dw: 320 dh: 480
+oppornen coord x183.5y417.5
+dw: 320 dh: 480
+oppornen coord x182y418
+dw: 320 dh: 480
+oppornen coord x185.5y416.5
+dw: 320 dh: 480
+oppornen coord x189y419
+dw: 320 dh: 480
+oppornen coord x191.5y418.5
+dw: 320 dh: 480
+oppornen coord x193y421
+dw: 320 dh: 480
+oppornen coord x194.5y423.5
+dw: 320 dh: 480
+oppornen coord x192y426
+dw: 320 dh: 480
+oppornen coord x194.5y425.5
+dw: 320 dh: 480
+oppornen coord x194y425
+dw: 320 dh: 480
+oppornen coord x193.5y426.5
+dw: 320 dh: 480
+oppornen coord x193y425
+dw: 320 dh: 480
+oppornen coord x189.5y425.5
+dw: 320 dh: 480
+oppornen coord x190y424
+dw: 320 dh: 480
+oppornen coord x186.5y423.5
+dw: 320 dh: 480
+oppornen coord x186y423
+dw: 320 dh: 480
+oppornen coord x188.5y420.5
+dw: 320 dh: 480
+oppornen coord x190y421
+dw: 320 dh: 480
+oppornen coord x186.5y424.5
+dw: 320 dh: 480
+oppornen coord x187y423
+dw: 320 dh: 480
+oppornen coord x183.5y423.5
+dw: 320 dh: 480
+oppornen coord x183y424
+dw: 320 dh: 480
+oppornen coord x183.5y420.5
+dw: 320 dh: 480
+oppornen coord x184y419
+dw: 320 dh: 480
+oppornen coord x186.5y415.5
+dw: 320 dh: 480
+oppornen coord x183y416
+dw: 320 dh: 480
+oppornen coord x181.5y412.5
+dw: 320 dh: 480
+oppornen coord x184y410
+dw: 320 dh: 480
+oppornen coord x185.5y413.5
+dw: 320 dh: 480
+oppornen coord x186y414
+dw: 320 dh: 480
+oppornen coord x189.5y411.5
+dw: 320 dh: 480
+oppornen coord x188y414
+dw: 320 dh: 480
+oppornen coord x184.5y413.5
+dw: 320 dh: 480
+oppornen coord x188y411
+dw: 320 dh: 480
+oppornen coord x191.5y411.5
+dw: 320 dh: 480
+oppornen coord x195y410
+dw: 320 dh: 480
+oppornen coord x195.5y412.5
+dw: 320 dh: 480
+oppornen coord x192y412
+dw: 320 dh: 480
+oppornen coord x191.5y414.5
+dw: 320 dh: 480
+oppornen coord x194y415
+dw: 320 dh: 480
+oppornen coord x194.5y411.5
+dw: 320 dh: 480
+oppornen coord x193y410
+dw: 320 dh: 480
+oppornen coord x192.5y408.5
+dw: 320 dh: 480
+oppornen coord x196y408
+dw: 320 dh: 480
+oppornen coord x199.5y409.5
+dw: 320 dh: 480
+oppornen coord x199y410
+dw: 320 dh: 480
+oppornen coord x202.5y408.5
+dw: 320 dh: 480
+oppornen coord x205y406
+dw: 320 dh: 480
+oppornen coord x206.5y406.5
+dw: 320 dh: 480
+oppornen coord x203y407
+dw: 320 dh: 480
+oppornen coord x205.5y407.5
+dw: 320 dh: 480
+oppornen coord x204y409
+dw: 320 dh: 480
+oppornen coord x200.5y409.5
+dw: 320 dh: 480
+oppornen coord x199y413
+dw: 320 dh: 480
+oppornen coord x198.5y410.5
+dw: 320 dh: 480
+oppornen coord x200y409
+dw: 320 dh: 480
+oppornen coord x196.5y406.5
+dw: 320 dh: 480
+oppornen coord x199y407
+dw: 320 dh: 480
+oppornen coord x201.5y406.5
+dw: 320 dh: 480
+oppornen coord x203y407
+dw: 320 dh: 480
+oppornen coord x203.5y409.5
+dw: 320 dh: 480
+oppornen coord x200y408
+dw: 320 dh: 480
+oppornen coord x203.5y410.5
+dw: 320 dh: 480
+oppornen coord x201y408
+dw: 320 dh: 480
+oppornen coord x203.5y405.5
+dw: 320 dh: 480
+oppornen coord x203y403
+dw: 320 dh: 480
+oppornen coord x206.5y406.5
+dw: 320 dh: 480
+oppornen coord x207y409
+dw: 320 dh: 480
+oppornen coord x210.5y408.5
+dw: 320 dh: 480
+oppornen coord x213y409
+dw: 320 dh: 480
+oppornen coord x210.5y405.5
+dw: 320 dh: 480
+oppornen coord x211y405
+dw: 320 dh: 480
+oppornen coord x209.5y406.5
+dw: 320 dh: 480
+oppornen coord x207y407
+dw: 320 dh: 480
+oppornen coord x203.5y407.5
+dw: 320 dh: 480
+oppornen coord x200y406
+dw: 320 dh: 480
+oppornen coord x203.5y402.5
+dw: 320 dh: 480
+oppornen coord x205y404
+dw: 320 dh: 480
+oppornen coord x208.5y400.5
+dw: 320 dh: 480
+oppornen coord x212y404
+dw: 320 dh: 480
+oppornen coord x213.5y405.5
+dw: 320 dh: 480
+oppornen coord x215y403
+dw: 320 dh: 480
+oppornen coord x218.5y405.5
+dw: 320 dh: 480
+oppornen coord x216y408
+dw: 320 dh: 480
+oppornen coord x212.5y405.5
+dw: 320 dh: 480
+oppornen coord x213y407
+dw: 320 dh: 480
+oppornen coord x215.5y405.5
+dw: 320 dh: 480
+oppornen coord x219y407
+dw: 320 dh: 480
+oppornen coord x216.5y407.5
+dw: 320 dh: 480
+oppornen coord x216y408
+dw: 320 dh: 480
+oppornen coord x214.5y409.5
+dw: 320 dh: 480
+oppornen coord x217y407
+dw: 320 dh: 480
+oppornen coord x216.5y408.5
+dw: 320 dh: 480
+oppornen coord x217y412
+dw: 320 dh: 480
+oppornen coord x217.5y412.5
+dw: 320 dh: 480
+oppornen coord x221y409
+dw: 320 dh: 480
+oppornen coord x218.5y406.5
+dw: 320 dh: 480
+oppornen coord x220y406
+dw: 320 dh: 480
+oppornen coord x222.5y403.5
+dw: 320 dh: 480
+oppornen coord x221y405
+dw: 320 dh: 480
+oppornen coord x220.5y407.5
+dw: 320 dh: 480
+oppornen coord x224y404
+dw: 320 dh: 480
+oppornen coord x226.5y403.5
+dw: 320 dh: 480
+oppornen coord x226y406
+dw: 320 dh: 480
+oppornen coord x229.5y406.5
+dw: 320 dh: 480
+oppornen coord x230y405
+dw: 320 dh: 480
+oppornen coord x228.5y405.5
+dw: 320 dh: 480
+oppornen coord x228y404
+dw: 320 dh: 480
+oppornen coord x224.5y403.5
+dw: 320 dh: 480
+oppornen coord x227y400
+dw: 320 dh: 480
+oppornen coord x225.5y400.5
+dw: 320 dh: 480
+oppornen coord x229y398
+dw: 320 dh: 480
+oppornen coord x232.5y399.5
+dw: 320 dh: 480
+oppornen coord x233y401
+dw: 320 dh: 480
+oppornen coord x230.5y400.5
+dw: 320 dh: 480
+oppornen coord x230y397
+dw: 320 dh: 480
+oppornen coord x230.5y394.5
+dw: 320 dh: 480
+oppornen coord x228y398
+dw: 320 dh: 480
+oppornen coord x226.5y399.5
+dw: 320 dh: 480
+oppornen coord x228y399
+dw: 320 dh: 480
+oppornen coord x229.5y402.5
+dw: 320 dh: 480
+oppornen coord x228y402
+dw: 320 dh: 480
+oppornen coord x230.5y404.5
+dw: 320 dh: 480
+oppornen coord x234y404
+dw: 320 dh: 480
+oppornen coord x235.5y403.5
+dw: 320 dh: 480
+oppornen coord x239y406
+dw: 320 dh: 480
+oppornen coord x240.5y407.5
+dw: 320 dh: 480
+oppornen coord x244y405
+dw: 320 dh: 480
+oppornen coord x244.5y408.5
+dw: 320 dh: 480
+oppornen coord x242y408
+dw: 320 dh: 480
+oppornen coord x240.5y410.5
+dw: 320 dh: 480
+oppornen coord x238y411
+dw: 320 dh: 480
+oppornen coord x238.5y412.5
+dw: 320 dh: 480
+oppornen coord x237y409
+dw: 320 dh: 480
+oppornen coord x235.5y406.5
+dw: 320 dh: 480
+oppornen coord x232y410
+dw: 320 dh: 480
+oppornen coord x229.5y406.5
+dw: 320 dh: 480
+oppornen coord x226y403
+dw: 320 dh: 480
+oppornen coord x226.5y399.5
+dw: 320 dh: 480
+oppornen coord x226y399
+dw: 320 dh: 480
+oppornen coord x224.5y398.5
+dw: 320 dh: 480
+oppornen coord x221y397
+dw: 320 dh: 480
+oppornen coord x224.5y395.5
+dw: 320 dh: 480
+oppornen coord x228y396
+dw: 320 dh: 480
+oppornen coord x227.5y399.5
+dw: 320 dh: 480
+oppornen coord x226y403
+dw: 320 dh: 480
+oppornen coord x224.5y405.5
+dw: 320 dh: 480
+oppornen coord x224y405
+dw: 320 dh: 480
+oppornen coord x227.5y401.5
+dw: 320 dh: 480
+oppornen coord x227y403
+dw: 320 dh: 480
+oppornen coord x229.5y402.5
+dw: 320 dh: 480
+oppornen coord x233y402
+dw: 320 dh: 480
+oppornen coord x234.5y403.5
+dw: 320 dh: 480
+oppornen coord x237y401
+dw: 320 dh: 480
+oppornen coord x236.5y402.5
+dw: 320 dh: 480
+oppornen coord x238y401
+dw: 320 dh: 480
+oppornen coord x235.5y403.5
+dw: 320 dh: 480
+oppornen coord x236y402
+dw: 320 dh: 480
+oppornen coord x235.5y402.5
+dw: 320 dh: 480
+oppornen coord x235y405
+dw: 320 dh: 480
+oppornen coord x232.5y407.5
+dw: 320 dh: 480
+oppornen coord x235y404
+dw: 320 dh: 480
+oppornen coord x231.5y402.5
+dw: 320 dh: 480
+oppornen coord x231y403
+dw: 320 dh: 480
+oppornen coord x231.5y405.5
+dw: 320 dh: 480
+oppornen coord x233y409
+dw: 320 dh: 480
+oppornen coord x235.5y407.5
+dw: 320 dh: 480
+oppornen coord x233y407
+dw: 320 dh: 480
+oppornen coord x235.5y410.5
+dw: 320 dh: 480
+oppornen coord x237y413
+dw: 320 dh: 480
+oppornen coord x233.5y411.5
+dw: 320 dh: 480
+oppornen coord x233y415
+dw: 320 dh: 480
+oppornen coord x230.5y417.5
+dw: 320 dh: 480
+oppornen coord x231y418
+dw: 320 dh: 480
+oppornen coord x230.5y417.5
+dw: 320 dh: 480
+oppornen coord x229y415
+dw: 320 dh: 480
+oppornen coord x226.5y417.5
+dw: 320 dh: 480
+oppornen coord x226y421
+dw: 320 dh: 480
+oppornen coord x228.5y419.5
+dw: 320 dh: 480
+oppornen coord x226y421
+dw: 320 dh: 480
+oppornen coord x226.5y417.5
+dw: 320 dh: 480
+oppornen coord x225y414
+dw: 320 dh: 480
+oppornen coord x224.5y414.5
+dw: 320 dh: 480
+oppornen coord x223y413
+dw: 320 dh: 480
+oppornen coord x226.5y411.5
+dw: 320 dh: 480
+oppornen coord x229y412
+dw: 320 dh: 480
+oppornen coord x228.5y412.5
+dw: 320 dh: 480
+oppornen coord x227y412
+dw: 320 dh: 480
+oppornen coord x226.5y411.5
+dw: 320 dh: 480
+oppornen coord x228y412
+dw: 320 dh: 480
+oppornen coord x224.5y412.5
+dw: 320 dh: 480
+oppornen coord x221y415
+dw: 320 dh: 480
+oppornen coord x223.5y413.5
+dw: 320 dh: 480
+oppornen coord x221y411
+dw: 320 dh: 480
+oppornen coord x224.5y408.5
+dw: 320 dh: 480
+oppornen coord x224y409
+dw: 320 dh: 480
+oppornen coord x226.5y411.5
+dw: 320 dh: 480
+oppornen coord x226y412
+dw: 320 dh: 480
+oppornen coord x226.5y408.5
+dw: 320 dh: 480
+oppornen coord x225y409
+dw: 320 dh: 480
+oppornen coord x228.5y407.5
+dw: 320 dh: 480
+oppornen coord x226y404
+dw: 320 dh: 480
+oppornen coord x224.5y406.5
+dw: 320 dh: 480
+oppornen coord x228y403
+dw: 320 dh: 480
+oppornen coord x225.5y401.5
+dw: 320 dh: 480
+oppornen coord x223y400
+dw: 320 dh: 480
+oppornen coord x222.5y396.5
+dw: 320 dh: 480
+oppornen coord x226y399
+dw: 320 dh: 480
+oppornen coord x229.5y401.5
+dw: 320 dh: 480
+oppornen coord x231y404
+dw: 320 dh: 480
+oppornen coord x234.5y406.5
+dw: 320 dh: 480
+oppornen coord x233y407
+dw: 320 dh: 480
+oppornen coord x231.5y407.5
+dw: 320 dh: 480
+oppornen coord x229y409
+dw: 320 dh: 480
+oppornen coord x231.5y407.5
+dw: 320 dh: 480
+oppornen coord x235y404
+dw: 320 dh: 480
+oppornen coord x233.5y406.5
+dw: 320 dh: 480
+oppornen coord x237y408
+dw: 320 dh: 480
+oppornen coord x237.5y404.5
+dw: 320 dh: 480
+oppornen coord x241y402
+dw: 320 dh: 480
+oppornen coord x240.5y398.5
+dw: 320 dh: 480
+oppornen coord x238y396
+dw: 320 dh: 480
+oppornen coord x241.5y393.5
+dw: 320 dh: 480
+oppornen coord x241y393
+dw: 320 dh: 480
+oppornen coord x244.5y390.5
+dw: 320 dh: 480
+oppornen coord x248y392
+dw: 320 dh: 480
+oppornen coord x248.5y389.5
+dw: 320 dh: 480
+oppornen coord x252y390
+dw: 320 dh: 480
+oppornen coord x249.5y390.5
+dw: 320 dh: 480
+oppornen coord x252y394
+dw: 320 dh: 480
+oppornen coord x250.5y393.5
+dw: 320 dh: 480
+oppornen coord x251y395
+dw: 320 dh: 480
+oppornen coord x254.5y391.5
+dw: 320 dh: 480
+oppornen coord x258y392
+dw: 320 dh: 480
+oppornen coord x257.5y390.5
+dw: 320 dh: 480
+oppornen coord x260y393
+dw: 320 dh: 480
+oppornen coord x259.5y389.5
+dw: 320 dh: 480
+oppornen coord x261y386
+dw: 320 dh: 480
+oppornen coord x263.5y382.5
+dw: 320 dh: 480
+oppornen coord x265y381
+dw: 320 dh: 480
+oppornen coord x262.5y384.5
+dw: 320 dh: 480
+oppornen coord x266y386
+dw: 320 dh: 480
+oppornen coord x262.5y382.5
+dw: 320 dh: 480
+oppornen coord x263y379
+dw: 320 dh: 480
+oppornen coord x262.5y375.5
+dw: 320 dh: 480
+oppornen coord x262y374
+dw: 320 dh: 480
+oppornen coord x259.5y376.5
+dw: 320 dh: 480
+oppornen coord x258y379
+dw: 320 dh: 480
+oppornen coord x260.5y376.5
+dw: 320 dh: 480
+oppornen coord x260y373
+dw: 320 dh: 480
+oppornen coord x263.5y370.5
+dw: 320 dh: 480
+oppornen coord x267y368
+dw: 320 dh: 480
+oppornen coord x270.5y368.5
+dw: 320 dh: 480
+oppornen coord x270y365
+dw: 320 dh: 480
+oppornen coord x272.5y368.5
+dw: 320 dh: 480
+oppornen coord x273y369
+dw: 320 dh: 480
+oppornen coord x269.5y368.5
+dw: 320 dh: 480
+oppornen coord x266y368
+dw: 320 dh: 480
+oppornen coord x269.5y371.5
+dw: 320 dh: 480
+oppornen coord x266y374
+dw: 320 dh: 480
+oppornen coord x268.5y371.5
+dw: 320 dh: 480
+oppornen coord x270y370
+dw: 320 dh: 480
+oppornen coord x270.5y366.5
+dw: 320 dh: 480
+oppornen coord x269y369
+dw: 320 dh: 480
+oppornen coord x267.5y366.5
+dw: 320 dh: 480
+oppornen coord x265y364
+dw: 320 dh: 480
+oppornen coord x264.5y364.5
+dw: 320 dh: 480
+oppornen coord x263y367
+dw: 320 dh: 480
+oppornen coord x262.5y368.5
+dw: 320 dh: 480
+oppornen coord x261y367
+dw: 320 dh: 480
+oppornen coord x259.5y365.5
+dw: 320 dh: 480
+oppornen coord x257y365
+dw: 320 dh: 480
+oppornen coord x253.5y365.5
+dw: 320 dh: 480
+oppornen coord x252y363
+dw: 320 dh: 480
+oppornen coord x251.5y360.5
+dw: 320 dh: 480
+oppornen coord x251y360
+dw: 320 dh: 480
+oppornen coord x254.5y358.5
+dw: 320 dh: 480
+oppornen coord x251y362
+dw: 320 dh: 480
+oppornen coord x249.5y365.5
+dw: 320 dh: 480
+oppornen coord x248y369
+dw: 320 dh: 480
+oppornen coord x250.5y365.5
+dw: 320 dh: 480
+oppornen coord x252y369
+dw: 320 dh: 480
+oppornen coord x254.5y368.5
+dw: 320 dh: 480
+oppornen coord x253y367
+dw: 320 dh: 480
+oppornen coord x249.5y367.5
+dw: 320 dh: 480
+oppornen coord x249y369
+dw: 320 dh: 480
+oppornen coord x249.5y367.5
+dw: 320 dh: 480
+oppornen coord x252y369
+dw: 320 dh: 480
+oppornen coord x253.5y367.5
+dw: 320 dh: 480
+oppornen coord x257y371
+dw: 320 dh: 480
+oppornen coord x253.5y373.5
+dw: 320 dh: 480
+oppornen coord x255y372
+dw: 320 dh: 480
+oppornen coord x251.5y370.5
+dw: 320 dh: 480
+oppornen coord x255y373
+dw: 320 dh: 480
+oppornen coord x257.5y370.5
+dw: 320 dh: 480
+oppornen coord x254y370
+dw: 320 dh: 480
+oppornen coord x256.5y367.5
+dw: 320 dh: 480
+oppornen coord x256y369
+dw: 320 dh: 480
+oppornen coord x259.5y368.5
+dw: 320 dh: 480
+oppornen coord x259y365
+dw: 320 dh: 480
+oppornen coord x259.5y361.5
+dw: 320 dh: 480
+oppornen coord x263y362
+dw: 320 dh: 480
+oppornen coord x266.5y359.5
+dw: 320 dh: 480
+oppornen coord x266y358
+dw: 320 dh: 480
+oppornen coord x265.5y357.5
+dw: 320 dh: 480
+oppornen coord x267y357
+dw: 320 dh: 480
+oppornen coord x269.5y359.5
+dw: 320 dh: 480
+oppornen coord x272y360
+dw: 320 dh: 480
+oppornen coord x268.5y356.5
+dw: 320 dh: 480
+oppornen coord x268y359
+dw: 320 dh: 480
+oppornen coord x269.5y355.5
+dw: 320 dh: 480
+oppornen coord x271y354
+dw: 320 dh: 480
+oppornen coord x271.5y351.5
+dw: 320 dh: 480
+oppornen coord x268y355
+dw: 320 dh: 480
+oppornen coord x264.5y352.5
+dw: 320 dh: 480
+oppornen coord x261y349
+dw: 320 dh: 480
+oppornen coord x258.5y351.5
+dw: 320 dh: 480
+oppornen coord x259y348
+dw: 320 dh: 480
+oppornen coord x256.5y351.5
+dw: 320 dh: 480
+oppornen coord x257y353
+dw: 320 dh: 480
+oppornen coord x259.5y350.5
+dw: 320 dh: 480
+oppornen coord x261y353
+dw: 320 dh: 480
+oppornen coord x259.5y354.5
+dw: 320 dh: 480
+oppornen coord x259y357
+dw: 320 dh: 480
+oppornen coord x259.5y357.5
+dw: 320 dh: 480
+oppornen coord x256y355
+dw: 320 dh: 480
+oppornen coord x256.5y357.5
+dw: 320 dh: 480
+oppornen coord x256y354
+dw: 320 dh: 480
+oppornen coord x259.5y353.5
+dw: 320 dh: 480
+oppornen coord x257y356
+dw: 320 dh: 480
+oppornen coord x259.5y356.5
+dw: 320 dh: 480
+oppornen coord x262y353
+dw: 320 dh: 480
+oppornen coord x263.5y352.5
+dw: 320 dh: 480
+oppornen coord x261y354
+dw: 320 dh: 480
+oppornen coord x257.5y357.5
+dw: 320 dh: 480
+oppornen coord x261y355
+dw: 320 dh: 480
+oppornen coord x261.5y358.5
+dw: 320 dh: 480
+oppornen coord x265y356
+dw: 320 dh: 480
+oppornen coord x261.5y353.5
+dw: 320 dh: 480
+oppornen coord x263y351
+dw: 320 dh: 480
+oppornen coord x259.5y347.5
+dw: 320 dh: 480
+oppornen coord x257y344
+dw: 320 dh: 480
+oppornen coord x254.5y347.5
+dw: 320 dh: 480
+oppornen coord x251y349
+dw: 320 dh: 480
+oppornen coord x253.5y350.5
+dw: 320 dh: 480
+oppornen coord x254y354
+dw: 320 dh: 480
+oppornen coord x254.5y354.5
+dw: 320 dh: 480
+oppornen coord x251y356
+dw: 320 dh: 480
+oppornen coord x252.5y359.5
+dw: 320 dh: 480
+oppornen coord x256y360
+dw: 320 dh: 480
+oppornen coord x255.5y363.5
+dw: 320 dh: 480
+oppornen coord x257y361
+dw: 320 dh: 480
+oppornen coord x259.5y364.5
+dw: 320 dh: 480
+oppornen coord x260y367
+dw: 320 dh: 480
+oppornen coord x262.5y366.5
+dw: 320 dh: 480
+oppornen coord x266y369
+dw: 320 dh: 480
+oppornen coord x267.5y367.5
+dw: 320 dh: 480
+oppornen coord x271y367
+dw: 320 dh: 480
+oppornen coord x268.5y370.5
+dw: 320 dh: 480
+oppornen coord x272y367
+dw: 320 dh: 480
+oppornen coord x275.5y364.5
+dw: 320 dh: 480
+oppornen coord x273y364
 scene1:enterPreTransition
-scene1:enterPreTransition
-2
-setup battlegroundScene
-scene1:exitPreTransition
-2
-scene1:exitPreTransition
-scene1:exitPostTransition
-Battlegroundscene:enterPostTransition
-chosen monster: 2{"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Dark Tomato","currentlvl":2,"age":0,"imgSrc":"lvl1.png"}}
-chosenNeighbor: {"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Dark Tomato","currentlvl":2,"age":0,"imgSrc":"lvl1.png"}}
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:16.531: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002be394 id=3003
-10/12/14 06:16:16.531: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:16.531: [0xfa0] SOCKET: s3eSocketConnect: 0x002be394 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:16.531: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:16.531: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:16.658: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:16.658: [0xfa0] SOCKET: NotifyConnect: 3003 0x002be394
-10/12/14 06:16:17.103: [0xfa0] SOCKET: s3eSocketClose: 0x002be394 open=1
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-GC on node: 50
-GC on node: 49
-5
-setup battlegroundScene
-scene1:exitPreTransition
-5
-scene1:exitPreTransition
-scene1:exitPostTransition
-Battlegroundscene:enterPostTransition
-chosen monster: 5{"lon":100,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"foopiePants","currentlvl":8,"age":0,"imgSrc":"lvl0.png"}}
-chosenNeighbor: {"lon":100,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"foopiePants","currentlvl":8,"age":0,"imgSrc":"lvl0.png"}}
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:26.355: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002be4b0 id=3004
-10/12/14 06:16:26.355: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:26.355: [0xfa0] SOCKET: s3eSocketConnect: 0x002be4b0 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:26.355: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:26.355: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:26.455: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:26.455: [0xfa0] SOCKET: NotifyConnect: 3004 0x002be4b0
-10/12/14 06:16:26.658: [0xfa0] SOCKET: s3eSocketClose: 0x002be4b0 open=1
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:26.659: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002be5cc id=3005
-10/12/14 06:16:26.659: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:26.659: [0xfa0] SOCKET: s3eSocketConnect: 0x002be5cc -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:26.659: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:26.659: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:26.777: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:26.777: [0xfa0] SOCKET: NotifyConnect: 3005 0x002be5cc
-10/12/14 06:16:27.050: [0xfa0] SOCKET: s3eSocketClose: 0x002be5cc open=1
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-7
-setup battlegroundScene
-scene1:exitPreTransition
-7
-scene1:exitPreTransition
-scene1:exitPostTransition
-Battlegroundscene:enterPostTransition
-chosen monster: 7{"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Dark Tomato","currentlvl":2,"age":0,"imgSrc":"lvl1.png"}}
-chosenNeighbor: {"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Dark Tomato","currentlvl":2,"age":0,"imgSrc":"lvl1.png"}}
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:31.621: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002be6e8 id=3006
-10/12/14 06:16:31.621: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:31.621: [0xfa0] SOCKET: s3eSocketConnect: 0x002be6e8 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:31.621: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:31.621: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:31.734: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:31.734: [0xfa0] SOCKET: NotifyConnect: 3006 0x002be6e8
-10/12/14 06:16:31.934: [0xfa0] SOCKET: s3eSocketClose: 0x002be6e8 open=1
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:31.935: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002be804 id=3007
-10/12/14 06:16:31.935: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:31.935: [0xfa0] SOCKET: s3eSocketConnect: 0x002be804 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:31.935: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:31.935: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:32.035: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:32.035: [0xfa0] SOCKET: NotifyConnect: 3007 0x002be804
-10/12/14 06:16:32.236: [0xfa0] SOCKET: s3eSocketClose: 0x002be804 open=1
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:32.237: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002be920 id=3008
-10/12/14 06:16:32.238: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:32.238: [0xfa0] SOCKET: s3eSocketConnect: 0x002be920 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:32.238: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:32.238: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:32.340: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:32.340: [0xfa0] SOCKET: NotifyConnect: 3008 0x002be920
-10/12/14 06:16:32.546: [0xfa0] SOCKET: s3eSocketClose: 0x002be920 open=1
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-4
-setup battlegroundScene
-scene1:exitPreTransition
-4
-scene1:exitPreTransition
-scene1:exitPostTransition
-Battlegroundscene:enterPostTransition
-chosen monster: 4{"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Lambtron","currentlvl":2,"age":0,"imgSrc":"lvl2.png"}}
-chosenNeighbor: {"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Lambtron","currentlvl":2,"age":0,"imgSrc":"lvl2.png"}}
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:36.731: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002bea3c id=3009
-10/12/14 06:16:36.731: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:36.731: [0xfa0] SOCKET: s3eSocketConnect: 0x002bea3c -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:36.731: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:36.731: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:36.902: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:36.902: [0xfa0] SOCKET: NotifyConnect: 3009 0x002bea3c
-10/12/14 06:16:37.138: [0xfa0] SOCKET: s3eSocketClose: 0x002bea3c open=1
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:37.139: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002beb58 id=3010
-10/12/14 06:16:37.139: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:37.139: [0xfa0] SOCKET: s3eSocketConnect: 0x002beb58 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:37.139: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:37.139: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:37.245: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:37.245: [0xfa0] SOCKET: NotifyConnect: 3010 0x002beb58
-10/12/14 06:16:37.446: [0xfa0] SOCKET: s3eSocketClose: 0x002beb58 open=1
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:37.447: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002bec74 id=3011
-10/12/14 06:16:37.447: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:37.447: [0xfa0] SOCKET: s3eSocketConnect: 0x002bec74 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:37.447: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:37.447: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:37.546: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:37.546: [0xfa0] SOCKET: NotifyConnect: 3011 0x002bec74
-10/12/14 06:16:37.743: [0xfa0] SOCKET: s3eSocketClose: 0x002bec74 open=1
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:37.744: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002bed90 id=3012
-10/12/14 06:16:37.744: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:37.744: [0xfa0] SOCKET: s3eSocketConnect: 0x002bed90 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:37.744: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:37.744: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:37.868: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:37.868: [0xfa0] SOCKET: NotifyConnect: 3012 0x002bed90
-10/12/14 06:16:38.091: [0xfa0] SOCKET: s3eSocketClose: 0x002bed90 open=1
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-scene1:enterPreTransition
-3
-setup battlegroundScene
-scene1:exitPreTransition
-3
-scene1:exitPreTransition
-scene1:exitPostTransition
-Battlegroundscene:enterPostTransition
-chosen monster: 3{"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Pengin","currentlvl":2,"age":0,"imgSrc":"lvl4.png"}}
-chosenNeighbor: {"lon":110,"lat":101,"monster":{"nextlvl":109,"isAlive":1,"name":"Pengin","currentlvl":2,"age":0,"imgSrc":"lvl4.png"}}
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:41.628: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002beeac id=3013
-10/12/14 06:16:41.628: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:41.628: [0xfa0] SOCKET: s3eSocketConnect: 0x002beeac -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:41.628: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:41.628: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:41.734: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:41.734: [0xfa0] SOCKET: NotifyConnect: 3013 0x002beeac
-10/12/14 06:16:41.950: [0xfa0] SOCKET: s3eSocketClose: 0x002beeac open=1
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:41.952: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002befc8 id=3014
-10/12/14 06:16:41.952: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:41.952: [0xfa0] SOCKET: s3eSocketConnect: 0x002befc8 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:41.952: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:41.952: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:42.060: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:42.060: [0xfa0] SOCKET: NotifyConnect: 3014 0x002befc8
-10/12/14 06:16:42.307: [0xfa0] SOCKET: s3eSocketClose: 0x002befc8 open=1
-battle sprite collision...determine outcome
-Outcome: 0
-QUICKCPP ERROR: ('./battleground.lua'), line 214: attempt to index global 'myMonsterSprite' (a nil value)
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:42.309: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002bf0e4 id=3015
-10/12/14 06:16:42.309: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:42.309: [0xfa0] SOCKET: s3eSocketConnect: 0x002bf0e4 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:42.309: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:42.309: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:42.408: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:42.408: [0xfa0] SOCKET: NotifyConnect: 3015 0x002bf0e4
-10/12/14 06:16:42.619: [0xfa0] SOCKET: s3eSocketClose: 0x002bf0e4 open=1
-battle sprite collision...determine outcome
-Outcome: 1
-10/12/14 06:16:42.620: [0xfa0] SOCKET: s3eSocketCreate -> p=0x002bf200 id=3016
-10/12/14 06:16:42.620: [0xfa0] SOCKET: s3eInetAton: '54.148.44.95'
-10/12/14 06:16:42.620: [0xfa0] SOCKET: s3eSocketConnect: 0x002bf200 -> 54.148.44.95:5000
-ERROR: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect
-10/12/14 06:16:42.620: [0xfa0] SOCKET: TryConnect error: Operation now in progress (36)
-10/12/14 06:16:42.620: [0xfa0] SOCKET: Connect: FAILED (1001: S3E_SOCKET_ERR_INPROGRESS in s3eSocketConnect)
-10/12/14 06:16:42.721: [0xfa0] SOCKET: TryConnect error: Socket is already connected (56)
-10/12/14 06:16:42.721: [0xfa0] SOCKET: NotifyConnect: 3016 0x002bf200
-10/12/14 06:16:42.922: [0xfa0] SOCKET: s3eSocketClose: 0x002bf200 open=1
+-- END TRACE --

@@ -53,14 +53,14 @@ function hit(event)
             -- ball.vx = -ball.vx
             -- ball.vy = -ball.vy
 
-            bat.x = bat.x + ball.xVel
+            -- bat.x = bat.x + ball.xVel
             bat.xVel = math.random(10)
 
-            bat.y = bat.y + ball.yVel
+            --bat.y = bat.y + ball.yVel
             bat.yVel = math.random(10)
 
-            -- ball.x = bat.x + bat.xVel
-            -- ball.y = bat.y + bat.yVel
+            ball.x = bat.x + bat.xVel
+            ball.y = bat.y + bat.yVel
         return true
     end
 end
@@ -102,10 +102,30 @@ function updateBattleSprite(event)
     -- print("battleupdate")
 
     opponentSprite.inTimer = 2
-    opponentSprite.x = math.random(0,dw)
-    opponentSprite.y = math.random(dh/2, dh)
+    -- on the left, generate right Vel, on the right, generate left Vel
+    if opponentSprite.x >= dw then 
+	opponentSprite.xVel = math.random(8)-16
+    elseif opponentSprite.x <= 0 then
+	opponentSprite.xVel = math.random(8)
+    else 
+	opponentSprite.xVel = math.random(8)-4.5
+    end
+    opponentSprite.x = opponentSprite.xVel + opponentSprite.x
+    
+    -- on the top, generate neg Vel, on the bottom, generate pos Vel
+    if opponentSprite.y >= dh then 
+	opponentSprite.yVel = math.random(8)-16
+    elseif opponentSprite.y <= 0 then
+	opponentSprite.yVel = math.random(8)
+    else 
+	opponentSprite.yVel = math.random(8)-4.5
+    end
+    opponentSprite.y = opponentSprite.yVel + opponentSprite.y
+    --opponentSprite.x = math.random(0,dw)
+    --opponentSprite.y = math.random(dh/2, dh)
 
-    -- print("oppornen coord x" ..opponentSprite.x .. "y" .. opponentSprite.y )
+    print("dw: "..dw.." dh: "..dh)
+    print("oppornen coord x" ..opponentSprite.x .. "y" .. opponentSprite.y )
 
 end
 
@@ -133,6 +153,7 @@ function scene:setUp(event)
   arenaButton.xScale = 0.5
   arenaButton.yScale = 0.5
   arenaButton:addEventListener("touch", goToArena)
+  -- remove the event listner for monsters
   -- Create button text
   local arenaText = director:createLabel( {
     x = 0, y = 0, 

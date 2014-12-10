@@ -4,8 +4,8 @@
 # tool during the build process.
 
 config = {}
-cmdline = ['/Applications/Marmalade.app/Contents/s3e/makefile_builder/mkb.py', '/Users/siyifan/Documents/FitMonster/FitMonster/teststg1.mkb', '--buildenv=QUICK', '--use-prebuilt', '--release', '--no-ide', '--execute', '--deploy-only']
-mkb = '/Users/siyifan/Documents/FitMonster/FitMonster/teststg1.mkb'
+cmdline = ['/Applications/Marmalade.app/Contents/s3e/makefile_builder/mkb.py', '/Users/ahau/Documents/marmaladetest/FitMonster/teststg1.mkb', '--buildenv=QUICK', '--use-prebuilt', '--release', '--no-ide', '--execute', '--deploy-only']
+mkb = '/Users/ahau/Documents/marmaladetest/FitMonster/teststg1.mkb'
 mkf = ['/Applications/Marmalade.app/Contents/s3e/s3e-default.mkf', '/Applications/Marmalade.app/Contents/quick/quick_prebuilt.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eFacebook/s3eFacebook.mkf', '/Applications/Marmalade.app/Contents/modules/iwutil/iwutil.mkf', '/Applications/Marmalade.app/Contents/modules/third_party/libjpeg/libjpeg.mkf', '/Applications/Marmalade.app/Contents/modules/third_party/libpng/libpng.mkf', '/Applications/Marmalade.app/Contents/modules/third_party/zlib/zlib.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eWebView/s3eWebView.mkf', '/Applications/Marmalade.app/Contents/modules/iwbilling/iwbilling.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eAmazonInAppPurchasing/s3eAmazonInAppPurchasing.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eAndroidMarketBilling/s3eAndroidMarketBilling.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eAndroidGooglePlayBilling/s3eAndroidGooglePlayBilling.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eBBAppWorldBilling/s3eBBAppWorldBilling.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eIOSAppStoreBilling/s3eIOSAppStoreBilling.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eWindowsStoreBilling/s3eWindowsStoreBilling.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eSamsungInAppPurchasing/s3eSamsungInAppPurchasing.mkf', '/Applications/Marmalade.app/Contents/extensions/Fortumo/Fortumo.mkf', '/Applications/Marmalade.app/Contents/extensions/s3eFlurry/s3eFlurry.mkf', '/Applications/Marmalade.app/Contents/quick/quick_prebuilt_options.mkf']
 
 class DeployConfig(object):
@@ -17,7 +17,7 @@ assets = {}
 
 assets['Default'] = [
     ('/Applications/Marmalade.app/Contents/extensions/s3eWebView/s3eWebView.js', 's3eWebView.js', 0),
-    ('/Users/siyifan/Documents/FitMonster/FitMonster/resources', '.', 0),
+    ('/Users/ahau/Documents/marmaladetest/FitMonster/resources', '.', 0),
 ]
 
 assets['WebView32Assets'] = [
@@ -44,9 +44,9 @@ class DefaultConfig(DeployConfig):
     caption = 'teststg1'
     long_caption = 'teststg1'
     version = [0, 0, 1]
-    config = ['/Users/siyifan/Documents/FitMonster/FitMonster/resources/common.icf', '/Users/siyifan/Documents/FitMonster/FitMonster/resources/app.icf']
-    data_dir = '/Users/siyifan/Documents/FitMonster/FitMonster/resources'
-    mkb_dir = '/Users/siyifan/Documents/FitMonster/FitMonster'
+    config = ['/Users/ahau/Documents/marmaladetest/FitMonster/resources/common.icf', '/Users/ahau/Documents/marmaladetest/FitMonster/resources/app.icf']
+    data_dir = '/Users/ahau/Documents/marmaladetest/FitMonster/resources'
+    mkb_dir = '/Users/ahau/Documents/marmaladetest/FitMonster'
     iphone_link_lib = ['s3eFacebook', 's3eWebView', 's3eIOSAppStoreBilling', 'FlurryAnalytics', 's3eFlurry']
     osx_ext_dll = ['/Applications/Marmalade.app/Contents/extensions/s3eWebView/lib/osx/libs3eWebView.dylib', '/Applications/Marmalade.app/Contents/extensions/s3eFlurry/lib/osx/libs3eFlurry.dylib']
     wp81_extra_pri = []

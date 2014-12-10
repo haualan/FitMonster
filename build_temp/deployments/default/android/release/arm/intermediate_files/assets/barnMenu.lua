@@ -42,6 +42,10 @@ function goToMainMenu()
 end
 
 function goToArena()
+  -- reset every listener
+  system:removeEventListener("touch", Attack)
+  system:removeEventListener("update", updateBattleSprite)
+  system:removeEventListener("collision", hit)
   -- check monsterState 
   switchToScene("arena")
   -- switchToScene("test")

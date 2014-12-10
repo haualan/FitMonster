@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.ahau.FitMonster"
+      package="com.siyifan.FitMonster"
       android:versionCode="1"
       android:versionName="0.0.1"
       android:installLocation="auto"
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <provider android:name="com.ideaworks3d.marmalade.VFSProvider"
-                  android:authorities="zzzz87593a48dbf726dab790bb9c6c4ab05f.VFSProvider"
+                  android:authorities="zzzz722cd371c8c0fbc03677ea47b5a9c1ae.VFSProvider"
                   android:exported="false"
                   android:multiprocess="true"
         >
