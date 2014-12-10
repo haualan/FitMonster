@@ -74,7 +74,9 @@ function scene:exitPostTransition(event)
 end
 
 function goToBattle(event)
-
+  -- remove any previous index listeners
+  scene:removeEventListener({"setUp", "enterPostTransition"}, scene)
+  -- rest code
   chosenMonsterIndex = event.target.index
   print(chosenMonsterIndex)
   switchToScene("battle")

@@ -102,8 +102,10 @@ function updateBattleSprite(event)
     -- print("battleupdate")
 
     opponentSprite.inTimer = 2
-    opponentSprite.vx = math.random(10)
-    opponentSprite.vy = math.random(10)
+    opponentSprite.x = math.random(0,dw)
+    opponentSprite.y = math.random(dh/2, dh)
+
+    -- print("oppornen coord x" ..opponentSprite.x .. "y" .. opponentSprite.y )
 
 end
 
@@ -263,6 +265,10 @@ function scene:enterPostTransition(event)
   time=1,
   mode="mirror"
   } )
+
+  
+
+
   physics:addNode(opponentSprite, {isSensor=true})
 
   -- opponentSprite:addEventListener("touch", dragBat)
